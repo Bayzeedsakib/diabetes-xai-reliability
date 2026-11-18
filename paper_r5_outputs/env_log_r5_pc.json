@@ -1,0 +1,31 @@
+{
+ "machine": "pc",
+ "python": "3.13.0",
+ "platform": "Windows-11-10.0.26200-SP0",
+ "cpu_count": 12,
+ "packages": {
+  "numpy": "2.1.3",
+  "pandas": "2.2.3",
+  "scipy": "1.16.3",
+  "scikit-learn": "1.6.1",
+  "xgboost": "3.4.1",
+  "lightgbm": "4.6.0",
+  "catboost": "1.2.10",
+  "shap": "0.52.0"
+ },
+ "pins_differ": {},
+ "test_mode": false,
+ "model_source": "refit",
+ "tree_workers": 6,
+ "max_rows": 0,
+ "max_rows_model": {},
+ "paper_outer": 2128606514,
+ "permutation_seeds": {
+  "1": 2941821818,
+  "2": 1798040441,
+  "3": 1261013684,
+  "4": 3055778493,
+  "5": 2471599976
+ },
+ "written_utc": "2026-11-13T15:41:10+00:00"
+}

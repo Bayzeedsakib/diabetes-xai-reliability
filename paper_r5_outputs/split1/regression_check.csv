@@ -1,0 +1,7 @@
+model,rows,max_abs_diff_values,max_abs_diff_base,max_abs_diff_output,tolerance,pass
+LR,20,0,0,0,1e-10,True
+XGB,20,0,0,0,1e-10,True
+LGBM,20,0,0,0,1e-10,True
+MLP,20,0,0,0,0,True
+RF,20,0,0,0,1e-10,True
+CAT,20,0,0,0,1e-10,True

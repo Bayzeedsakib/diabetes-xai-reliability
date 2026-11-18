@@ -1,0 +1,14 @@
+{
+ "file": "shap\\SHAP_GNB.csv",
+ "sha256": "efed631496c77c5405d4ac927adab3304cf1e5a9cf09cd608732d6c4d4eaa4f7",
+ "rows": 530,
+ "chunks": 53,
+ "wall_s": 28.33193960004428,
+ "worker_cpu_s": 27.484375,
+ "workers": 1,
+ "explainer": "PermutationExplainer (100 bg, max_evals 250)",
+ "output_scale": "probability",
+ "max_additivity_error": 2.55351295663786e-15,
+ "machine": "pc",
+ "finished_utc": "2026-10-15T19:27:58+00:00"
+}

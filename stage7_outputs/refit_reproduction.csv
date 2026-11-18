@@ -1,0 +1,11 @@
+model,max_abs_diff_vs_stage5,identical
+GNB,0,True
+DT,0,True
+LR,0,True
+SVC,0,True
+KNN,0,True
+XGB,0,True
+LGBM,0,True
+MLP,0,True
+CAT,0,True
+RF,0,True

@@ -1,0 +1,8 @@
+split,model,source,r4_pipeline_on_pc,path,model_sha256,max_abs_diff,rows_differing,exact,pass,seconds
+5,LR,refit (config 16),hash = summary.json,paper_r5_outputs\models\split5_LR.joblib,b79725206de41e864c76887fafe7306e0b5e2c1fae9c4966de5b3917bbf1f749,0.0,0,True,True,11.0
+5,XGB,refit (config 24),hash = summary.json,paper_r5_outputs\models\split5_XGB.joblib,639844a9b3f080c9880743db28b9359214d617a7ba316c54e631b7ca306c3d0d,0.0,0,True,True,3.3
+5,LGBM,refit (config 7),hash = summary.json,paper_r5_outputs\models\split5_LGBM.joblib,ed7a2a99244b666352b7472cbc84cd5e9a3ef47b29dbe8672285617b217ec5dd,0.0,0,True,True,3.2
+5,MLP,refit (config 29),hash = summary.json,paper_r5_outputs\models\split5_MLP.joblib,021164100af5aad7d1ce54fa8012cda10fd795a17d4ba7e745913675fe986431,0.0,0,True,True,15.8
+5,RF,refit (config 9),hash = summary.json,paper_r5_outputs\models\split5_RF.joblib,842d7c49decf9fd6937c2c20900b96be2b601226244cf4e82fab481f5f1a3e9b,0.0,0,True,True,15.9
+5,CAT,refit (config 7),hash = summary.json,paper_r5_outputs\models\split5_CAT.joblib,c4da6b23550b97af4fd5adc697022acb6553419b045bb01b03553a564b9f2d99,0.0,0,True,True,24.2
+5,ALT_XGB,refit (Altamimi settings),not saved by R4,paper_r5_outputs\models\split5_ALT_XGB.joblib,6f552a80b19c2684f73fe8bf63d0f79efe286614ddee5ef195aca49421fb5deb,0.0,0,True,True,3.3

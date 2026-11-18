@@ -1,0 +1,31 @@
+{
+  "model": "KNN",
+  "model_name": "K-Nearest Neighbors",
+  "config_id": 16,
+  "n_rank1_ties": 1,
+  "params": {
+    "clf__weights": "uniform",
+    "clf__p": 1,
+    "clf__n_neighbors": 251
+  },
+  "params_repr": {
+    "clf__weights": "'uniform'",
+    "clf__p": "1",
+    "clf__n_neighbors": "251"
+  },
+  "mean_cv_ap": 0.42146558282660146,
+  "sd_cv_ap": 0.015488465454726904,
+  "fold_ap": [
+    0.40531847635013374,
+    0.41232581530273843,
+    0.4503228780292715,
+    0.41684479710179334,
+    0.4225159473490704
+  ],
+  "tuned_on": "dev_subsample_50k.csv (D14)",
+  "tuning_rows": 50000,
+  "n_configs": 30,
+  "n_folds": 5,
+  "scoring": "average_precision",
+  "note": "selection score only; reported performance comes from Stage 4 (D7)"
+}

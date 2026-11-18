@@ -1,0 +1,215 @@
+{
+  "best_model": "CAT",
+  "best_rule": "highest mean 5-fold re-evaluation AP on development folds (D7)",
+  "config_version": "v1.0",
+  "contrasts": {
+    "primary": [
+      "CAT",
+      "LR"
+    ],
+    "secondary": [
+      "CAT",
+      "XGB"
+    ]
+  },
+  "models": {
+    "CAT": {
+      "config_id": 7,
+      "dev_mean_ap": 0.4374484128,
+      "dev_sd_ap": 0.0077126977,
+      "oof_file": "stage4_outputs/oof/oof_CAT.csv",
+      "oof_sha256": "740f18ee77d7ac6d5de77664a7de81d582d2df26c11c540e64481e2b420fa5b3",
+      "params_repr": {
+        "clf__depth": "7",
+        "clf__iterations": "532",
+        "clf__l2_leaf_reg": "7.8446562905304225",
+        "clf__learning_rate": "0.029906018389263836",
+        "clf__scale_pos_weight": "4.0"
+      },
+      "pipeline": "stage3_outputs/models/CAT/pipeline_CAT.joblib",
+      "pipeline_sha256": "20a890f1b8fe43ffe200e0f75d35addd1c59d9c9add27c47e577667d89d92472",
+      "score": "predict_proba[:, 1]",
+      "threshold_050": 0.5,
+      "threshold_mcc": 0.5505179283881766,
+      "threshold_screen": 0.38618975821650225
+    },
+    "DT": {
+      "config_id": 3,
+      "dev_mean_ap": 0.4066268838,
+      "dev_sd_ap": 0.0081449317,
+      "oof_file": "stage4_outputs/oof/oof_DT.csv",
+      "oof_sha256": "f7c33da566e6793a9416a239eeb794c26f42d0d49c7f8a840cf4995b0ce8f32b",
+      "params_repr": {
+        "clf__class_weight": "'balanced'",
+        "clf__criterion": "'gini'",
+        "clf__max_depth": "10",
+        "clf__min_samples_leaf": "50",
+        "clf__min_samples_split": "10"
+      },
+      "pipeline": "stage3_outputs/models/DT/pipeline_DT.joblib",
+      "pipeline_sha256": "3146bde7cdbf7ea2c4386a368c742b6d3eaf6633b7d417b8bcf9c2f4fe61eb72",
+      "score": "predict_proba[:, 1]",
+      "threshold_050": 0.5,
+      "threshold_mcc": 0.6234569882112205,
+      "threshold_screen": 0.48470761701898263
+    },
+    "GNB": {
+      "config_id": 16,
+      "dev_mean_ap": 0.3505303814,
+      "dev_sd_ap": 0.0042366233,
+      "oof_file": "stage4_outputs/oof/oof_GNB.csv",
+      "oof_sha256": "3e6a6420f058a5f0a550c42f1da60a31d2d44522aedcd736dd3b1b9088269467",
+      "params_repr": {
+        "clf__var_smoothing": "0.0003775996083340724"
+      },
+      "pipeline": "stage3_outputs/models/GNB/pipeline_GNB.joblib",
+      "pipeline_sha256": "70939cdb6e8259504f1991ec503aa1d6ba88be995f0574aa750cf3d81d1143e1",
+      "score": "predict_proba[:, 1]",
+      "threshold_050": 0.5,
+      "threshold_mcc": 0.05154685535574482,
+      "threshold_screen": 0.03387443535765132
+    },
+    "KNN": {
+      "config_id": 16,
+      "dev_mean_ap": 0.4208782554,
+      "dev_sd_ap": 0.0057137114,
+      "oof_file": "stage4_outputs/oof/oof_KNN.csv",
+      "oof_sha256": "ad600bdb61e16696f760cc2a97bb52300ae158a9fbdf3107ed208a6de4ec4a12",
+      "params_repr": {
+        "clf__n_neighbors": "251",
+        "clf__p": "1",
+        "clf__weights": "'uniform'"
+      },
+      "pipeline": "stage3_outputs/models/KNN/pipeline_KNN.joblib",
+      "pipeline_sha256": "3587dadbec9d69a57a3617a1679da602eed01471a07dbc03655e8f847bcdada4",
+      "score": "predict_proba[:, 1]",
+      "threshold_050": 0.5,
+      "threshold_mcc": 0.21912350597609562,
+      "threshold_screen": 0.14342629482071714
+    },
+    "LGBM": {
+      "config_id": 19,
+      "dev_mean_ap": 0.4362664861,
+      "dev_sd_ap": 0.0071569264,
+      "oof_file": "stage4_outputs/oof/oof_LGBM.csv",
+      "oof_sha256": "74ea5d0a693b6635a1dcacfc7510120803d909b2b6a826c38917cf16e5989fcc",
+      "params_repr": {
+        "clf__colsample_bytree": "0.9987142156893605",
+        "clf__learning_rate": "0.014468190564981288",
+        "clf__min_child_samples": "105",
+        "clf__n_estimators": "449",
+        "clf__num_leaves": "75",
+        "clf__reg_lambda": "0.4954468310818483",
+        "clf__scale_pos_weight": "2.0",
+        "clf__subsample": "0.6925335507776357"
+      },
+      "pipeline": "stage3_outputs/models/LGBM/pipeline_LGBM.joblib",
+      "pipeline_sha256": "4b5d7646db5457245c4c8f8a7f6a360cfb2d8f8de50176e92aeffc18bf671997",
+      "score": "predict_proba[:, 1]",
+      "threshold_050": 0.5,
+      "threshold_mcc": 0.38836939392610703,
+      "threshold_screen": 0.2395228111278048
+    },
+    "LR": {
+      "config_id": 20,
+      "dev_mean_ap": 0.4058197566,
+      "dev_sd_ap": 0.0041674144,
+      "oof_file": "stage4_outputs/oof/oof_LR.csv",
+      "oof_sha256": "ec239fa37497d9d57111a8034d576f9fff163545ce8cc3c06cb8adeae2d38821",
+      "params_repr": {
+        "clf__C": "45.865503787065464",
+        "clf__class_weight": "None",
+        "clf__penalty": "'l2'"
+      },
+      "pipeline": "stage3_outputs/models/LR/pipeline_LR.joblib",
+      "pipeline_sha256": "2deb4902b2c4030c3d9a5cfcdc8474d9a8754462fd6378e65cc6711ca1c90966",
+      "score": "predict_proba[:, 1]",
+      "threshold_050": 0.5,
+      "threshold_mcc": 0.18613859181509132,
+      "threshold_screen": 0.12527526542479447
+    },
+    "MLP": {
+      "config_id": 21,
+      "dev_mean_ap": 0.4306213176,
+      "dev_sd_ap": 0.0071107066,
+      "oof_file": "stage4_outputs/oof/oof_MLP.csv",
+      "oof_sha256": "e61ad30e8f94380994b940fe7b17a0dffc895f716e4aeff0e83ffdf557f94d9c",
+      "params_repr": {
+        "clf__alpha": "0.0028465104059361016",
+        "clf__batch_size": "512",
+        "clf__hidden_layer_sizes": "(64, 32)",
+        "clf__learning_rate_init": "0.004717718560996082"
+      },
+      "pipeline": "stage3_outputs/models/MLP/pipeline_MLP.joblib",
+      "pipeline_sha256": "e58354518e9b8b13042f9cdde8b8576019a1b7bf1c5fd247cf8a8d2cf58c744f",
+      "score": "predict_proba[:, 1]",
+      "threshold_050": 0.5,
+      "threshold_mcc": 0.20806378824541263,
+      "threshold_screen": 0.1415735945449274
+    },
+    "RF": {
+      "config_id": 6,
+      "dev_mean_ap": 0.4298563509,
+      "dev_sd_ap": 0.0070828802,
+      "oof_file": "stage4_outputs/oof/oof_RF.csv",
+      "oof_sha256": "cdd3e913ac659ce6d9bb2d432241cd57ad45b3e6c60eb55dc534a6b83e9a0778",
+      "params_repr": {
+        "clf__class_weight": "None",
+        "clf__max_depth": "16",
+        "clf__max_features": "'log2'",
+        "clf__max_samples": "0.8",
+        "clf__min_samples_leaf": "5",
+        "clf__n_estimators": "200"
+      },
+      "pipeline": "stage3_outputs/models/RF/pipeline_RF.joblib",
+      "pipeline_sha256": "3be59116e250dd553b631511bd8392087d8144997892f4569bdae68253f0ea99",
+      "score": "predict_proba[:, 1]",
+      "threshold_050": 0.5,
+      "threshold_mcc": 0.22856806106507946,
+      "threshold_screen": 0.14076917096050928
+    },
+    "SVC": {
+      "config_id": 20,
+      "dev_mean_ap": 0.405445931,
+      "dev_sd_ap": 0.0040637492,
+      "oof_file": "stage4_outputs/oof/oof_SVC.csv",
+      "oof_sha256": "3896410117c541b897cc7aeb84e40a6a160e2ac778bd4917e13f34b88d06b13a",
+      "params_repr": {
+        "clf__C": "5.222820981651938",
+        "clf__class_weight": "None",
+        "clf__penalty": "'l2'"
+      },
+      "pipeline": "stage4_outputs/models/pipeline_SVC_calibrated.joblib",
+      "pipeline_sha256": "c26321360c405aa3dab314ffba3678f999a8ba2aafc357377e6c3073c0b06f22",
+      "score": "calibrated probability (sigmoid, 5-fold)",
+      "threshold_050": 0.5,
+      "threshold_mcc": 0.1792067467997466,
+      "threshold_screen": 0.12257314998850709
+    },
+    "XGB": {
+      "config_id": 2,
+      "dev_mean_ap": 0.4363118961,
+      "dev_sd_ap": 0.006666068,
+      "oof_file": "stage4_outputs/oof/oof_XGB.csv",
+      "oof_sha256": "88c555650233472fb65043874ebad1bbadce84b738dfa8c7cc46f2d900f93484",
+      "params_repr": {
+        "clf__colsample_bytree": "0.9014605340608103",
+        "clf__learning_rate": "0.014484855759887926",
+        "clf__max_depth": "7",
+        "clf__min_child_weight": "8.719328381638121",
+        "clf__n_estimators": "539",
+        "clf__reg_lambda": "0.45585140426292137",
+        "clf__scale_pos_weight": "2.0",
+        "clf__subsample": "0.9110125909544478"
+      },
+      "pipeline": "stage3_outputs/models/XGB/pipeline_XGB.joblib",
+      "pipeline_sha256": "f397dc6db4095323b18c007b9cd8f22668c6b89c2bce53ae760a9460bdc7b062",
+      "score": "predict_proba[:, 1]",
+      "threshold_050": 0.5,
+      "threshold_mcc": 0.3621784746646881,
+      "threshold_screen": 0.23839285969734192
+    }
+  },
+  "stage": "stage4_reeval_freeze.ipynb",
+  "threshold_rule": "positive if probability >= t"
+}

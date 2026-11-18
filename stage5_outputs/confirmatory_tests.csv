@@ -1,0 +1,5 @@
+contrast,test,statistic,p_value,p_holm,reject_at_0.05
+primary,"paired bootstrap, AP difference",0.03174784696,0.0009995002499,0.0019990005,True
+primary,"exact McNemar at MCC thresholds (CAT right/LR wrong = 2506, CAT wrong/LR right = 932)",1574,1.674107208e-164,6.696428832e-164,True
+secondary,"paired bootstrap, AP difference",0.00142150856,0.1269365317,0.1269365317,False
+secondary,"exact McNemar at MCC thresholds (CAT right/XGB wrong = 878, CAT wrong/XGB right = 318)",560,4.861404161e-61,1.458421248e-60,True

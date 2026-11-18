@@ -1,0 +1,56 @@
+{
+ "machine": "pc",
+ "python": "3.13.0",
+ "platform": "Windows-11-10.0.26200-SP0",
+ "cpu_count": 12,
+ "packages": {
+  "numpy": "2.1.3",
+  "pandas": "2.2.3",
+  "scipy": "1.16.3",
+  "scikit-learn": "1.6.1",
+  "xgboost": "3.4.1",
+  "lightgbm": "4.6.0",
+  "catboost": "1.2.10"
+ },
+ "paper_outer": 2128606514,
+ "split_seeds": {
+  "2": {
+   "partition": 1175812276,
+   "folds": 1928346733,
+   "subsample_50k": 2695588701,
+   "shap_background": 2046412443,
+   "shap_perm_background": 4038824602,
+   "test_core": 3943562800,
+   "eval_bootstrap": 2424220024
+  },
+  "3": {
+   "partition": 53387441,
+   "folds": 2243936840,
+   "subsample_50k": 421107203,
+   "shap_background": 1455755608,
+   "shap_perm_background": 4284788987,
+   "test_core": 3951056151,
+   "eval_bootstrap": 1600468367
+  },
+  "4": {
+   "partition": 241135546,
+   "folds": 1797926918,
+   "subsample_50k": 3096314353,
+   "shap_background": 2815086372,
+   "shap_perm_background": 3930389921,
+   "test_core": 2191480547,
+   "eval_bootstrap": 2125626925
+  },
+  "5": {
+   "partition": 2097939031,
+   "folds": 1886747120,
+   "subsample_50k": 3766643917,
+   "shap_background": 330525642,
+   "shap_perm_background": 3349837425,
+   "test_core": 139835216,
+   "eval_bootstrap": 3269299794
+  }
+ },
+ "test_mode": false,
+ "written_utc": "2026-11-03T23:44:38+00:00"
+}

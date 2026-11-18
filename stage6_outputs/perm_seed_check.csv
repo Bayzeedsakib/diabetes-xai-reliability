@@ -1,0 +1,4 @@
+model,n_rows,kendall_tau_b_global,top5_jaccard_global,mean_abs_diff_over_mean_abs_shap,pearson_all_values
+GNB,500,0.980952381,1,0.1188844987,0.9877060116
+SVC,500,1,1,0.01829579212,0.9997699139
+MLP,500,1,1,0.08531122268,0.9967537399

@@ -1,0 +1,14 @@
+{
+ "file": "shap\\SHAP_LGBM.csv",
+ "sha256": "0bc7d34a316777e60feaf4baf168284a117698ac84ceb2f808e4f45686b9479a",
+ "rows": 2029,
+ "chunks": 41,
+ "wall_s": 103.89352409999992,
+ "worker_cpu_s": 600.5625,
+ "workers": 6,
+ "explainer": "TreeExplainer (interventional, 500 bg)",
+ "output_scale": "log-odds",
+ "max_additivity_error": 1.1743119908425026e-07,
+ "machine": "pc",
+ "finished_utc": "2026-10-15T19:31:16+00:00"
+}

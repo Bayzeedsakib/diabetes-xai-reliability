@@ -1,0 +1,35 @@
+{
+  "model": "CAT",
+  "model_name": "CatBoost",
+  "config_id": 7,
+  "n_rank1_ties": 1,
+  "params": {
+    "clf__depth": 7,
+    "clf__iterations": 532,
+    "clf__l2_leaf_reg": 7.8446562905304225,
+    "clf__learning_rate": 0.029906018389263836,
+    "clf__scale_pos_weight": 4.0
+  },
+  "params_repr": {
+    "clf__depth": "7",
+    "clf__iterations": "532",
+    "clf__l2_leaf_reg": "7.8446562905304225",
+    "clf__learning_rate": "0.029906018389263836",
+    "clf__scale_pos_weight": "4.0"
+  },
+  "mean_cv_ap": 0.4374484128098094,
+  "sd_cv_ap": 0.007712697744018771,
+  "fold_ap": [
+    0.42618919875110295,
+    0.4355315135813342,
+    0.44951718314098876,
+    0.44122045398869936,
+    0.4347837145869214
+  ],
+  "tuned_on": "dev_folds.csv",
+  "tuning_rows": 202944,
+  "n_configs": 30,
+  "n_folds": 5,
+  "scoring": "average_precision",
+  "note": "selection score only; reported performance comes from Stage 4 (D7)"
+}

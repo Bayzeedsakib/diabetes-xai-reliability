@@ -1,0 +1,97 @@
+{
+ "models": [
+  {
+   "split": 1,
+   "model": "LR",
+   "source": "frozen thesis pipeline",
+   "r4_pipeline_on_pc": "-",
+   "path": "stage3_outputs\\models\\LR\\pipeline_LR.joblib",
+   "model_sha256": "2deb4902b2c4030c3d9a5cfcdc8474d9a8754462fd6378e65cc6711ca1c90966",
+   "max_abs_diff": 0.0,
+   "rows_differing": 0,
+   "exact": true,
+   "pass": true,
+   "seconds": 0.0
+  },
+  {
+   "split": 1,
+   "model": "XGB",
+   "source": "frozen thesis pipeline",
+   "r4_pipeline_on_pc": "-",
+   "path": "stage3_outputs\\models\\XGB\\pipeline_XGB.joblib",
+   "model_sha256": "f397dc6db4095323b18c007b9cd8f22668c6b89c2bce53ae760a9460bdc7b062",
+   "max_abs_diff": 0.0,
+   "rows_differing": 0,
+   "exact": true,
+   "pass": true,
+   "seconds": 0.2
+  },
+  {
+   "split": 1,
+   "model": "LGBM",
+   "source": "frozen thesis pipeline",
+   "r4_pipeline_on_pc": "-",
+   "path": "stage3_outputs\\models\\LGBM\\pipeline_LGBM.joblib",
+   "model_sha256": "4b5d7646db5457245c4c8f8a7f6a360cfb2d8f8de50176e92aeffc18bf671997",
+   "max_abs_diff": 0.0,
+   "rows_differing": 0,
+   "exact": true,
+   "pass": true,
+   "seconds": 0.4
+  },
+  {
+   "split": 1,
+   "model": "MLP",
+   "source": "frozen thesis pipeline",
+   "r4_pipeline_on_pc": "-",
+   "path": "stage3_outputs\\models\\MLP\\pipeline_MLP.joblib",
+   "model_sha256": "e58354518e9b8b13042f9cdde8b8576019a1b7bf1c5fd247cf8a8d2cf58c744f",
+   "max_abs_diff": 0.0,
+   "rows_differing": 0,
+   "exact": true,
+   "pass": true,
+   "seconds": 0.1
+  },
+  {
+   "split": 1,
+   "model": "RF",
+   "source": "frozen thesis pipeline",
+   "r4_pipeline_on_pc": "-",
+   "path": "stage3_outputs\\models\\RF\\pipeline_RF.joblib",
+   "model_sha256": "3be59116e250dd553b631511bd8392087d8144997892f4569bdae68253f0ea99",
+   "max_abs_diff": 0.0,
+   "rows_differing": 0,
+   "exact": true,
+   "pass": true,
+   "seconds": 2.4
+  },
+  {
+   "split": 1,
+   "model": "CAT",
+   "source": "frozen thesis pipeline",
+   "r4_pipeline_on_pc": "-",
+   "path": "stage3_outputs\\models\\CAT\\pipeline_CAT.joblib",
+   "model_sha256": "20a890f1b8fe43ffe200e0f75d35addd1c59d9c9add27c47e577667d89d92472",
+   "max_abs_diff": 0.0,
+   "rows_differing": 0,
+   "exact": true,
+   "pass": true,
+   "seconds": 0.7
+  },
+  {
+   "split": 1,
+   "model": "ALT_XGB",
+   "source": "refit (Altamimi settings)",
+   "r4_pipeline_on_pc": "not saved by R4",
+   "path": "paper_r5_outputs\\models\\split1_ALT_XGB.joblib",
+   "model_sha256": "9b0a76603125481f72f8e4d5aaff101cdfb848b51e58a6a62720cf323f3b7f75",
+   "max_abs_diff": 0.0,
+   "rows_differing": 0,
+   "exact": true,
+   "pass": true,
+   "seconds": 2.0
+  }
+ ],
+ "machine": "pc",
+ "finished_utc": "2026-11-13T14:23:35+00:00"
+}

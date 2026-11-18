@@ -1,0 +1,9 @@
+{
+ "first_rf_task": "split1_boot01_RF_native",
+ "rows": 500,
+ "workers": 6,
+ "wall_s": 352.5505361999967,
+ "threshold_s": 480.0,
+ "fallback": false,
+ "decided_utc": "2026-11-14T21:20:19+00:00"
+}

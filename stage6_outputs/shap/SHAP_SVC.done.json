@@ -1,0 +1,14 @@
+{
+ "file": "shap\\SHAP_SVC.csv",
+ "sha256": "8a7e8cf23d78481d8f5a9f8bd2789207893597798da6cc10082c844d3ae8e233",
+ "rows": 530,
+ "chunks": 53,
+ "wall_s": 56.97978920000605,
+ "worker_cpu_s": 56.65625,
+ "workers": 1,
+ "explainer": "PermutationExplainer (100 bg, max_evals 250)",
+ "output_scale": "probability",
+ "max_additivity_error": 1.7763568394002505e-15,
+ "machine": "pc",
+ "finished_utc": "2026-10-15T19:29:02+00:00"
+}

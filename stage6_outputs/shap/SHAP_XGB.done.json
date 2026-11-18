@@ -1,0 +1,14 @@
+{
+ "file": "shap\\SHAP_XGB.csv",
+ "sha256": "1aa0f577fc64dc2bf997ac7d8a33820e94284f78f04699a1167c304b8ea901b4",
+ "rows": 2029,
+ "chunks": 41,
+ "wall_s": 141.23775240000396,
+ "worker_cpu_s": 821.046875,
+ "workers": 6,
+ "explainer": "TreeExplainer (interventional, 500 bg)",
+ "output_scale": "log-odds",
+ "max_additivity_error": 6.795540258508481e-06,
+ "machine": "pc",
+ "finished_utc": "2026-10-15T19:35:38+00:00"
+}

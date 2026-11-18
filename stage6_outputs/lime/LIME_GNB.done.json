@@ -1,0 +1,10 @@
+{
+ "file": "lime\\LIME_GNB.csv",
+ "sha256": "90e039c30c740067b869371b231be54ab83474f57515d92dfa73cef7650b41b0",
+ "rows": 30,
+ "explanations": 90,
+ "wall_s": 2.4715154000004986,
+ "workers": 1,
+ "machine": "pc",
+ "finished_utc": "2026-10-15T19:55:23+00:00"
+}

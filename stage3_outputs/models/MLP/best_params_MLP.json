@@ -1,0 +1,36 @@
+{
+  "model": "MLP",
+  "model_name": "Multilayer Perceptron",
+  "config_id": 21,
+  "n_rank1_ties": 1,
+  "params": {
+    "clf__alpha": 0.0028465104059361016,
+    "clf__batch_size": 512,
+    "clf__hidden_layer_sizes": [
+      64,
+      32
+    ],
+    "clf__learning_rate_init": 0.004717718560996082
+  },
+  "params_repr": {
+    "clf__alpha": "0.0028465104059361016",
+    "clf__batch_size": "512",
+    "clf__hidden_layer_sizes": "(64, 32)",
+    "clf__learning_rate_init": "0.004717718560996082"
+  },
+  "mean_cv_ap": 0.4350016991575389,
+  "sd_cv_ap": 0.0167882371074489,
+  "fold_ap": [
+    0.4089200601328957,
+    0.43147192899723064,
+    0.45955200343773706,
+    0.4304263201929778,
+    0.4446381830268537
+  ],
+  "tuned_on": "dev_subsample_50k.csv (D14)",
+  "tuning_rows": 50000,
+  "n_configs": 30,
+  "n_folds": 5,
+  "scoring": "average_precision",
+  "note": "selection score only; reported performance comes from Stage 4 (D7)"
+}

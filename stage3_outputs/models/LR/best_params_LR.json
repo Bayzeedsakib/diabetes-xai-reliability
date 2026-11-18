@@ -1,0 +1,31 @@
+{
+  "model": "LR",
+  "model_name": "Logistic Regression",
+  "config_id": 20,
+  "n_rank1_ties": 1,
+  "params": {
+    "clf__C": 45.865503787065464,
+    "clf__class_weight": null,
+    "clf__penalty": "l2"
+  },
+  "params_repr": {
+    "clf__C": "45.865503787065464",
+    "clf__class_weight": "None",
+    "clf__penalty": "'l2'"
+  },
+  "mean_cv_ap": 0.40581975662876546,
+  "sd_cv_ap": 0.004167414437508637,
+  "fold_ap": [
+    0.40181514865552426,
+    0.40373394626128556,
+    0.4120174621192142,
+    0.4095099023741464,
+    0.402022323733657
+  ],
+  "tuned_on": "dev_folds.csv",
+  "tuning_rows": 202944,
+  "n_configs": 30,
+  "n_folds": 5,
+  "scoring": "average_precision",
+  "note": "selection score only; reported performance comes from Stage 4 (D7)"
+}

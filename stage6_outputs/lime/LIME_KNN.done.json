@@ -1,0 +1,10 @@
+{
+ "file": "lime\\LIME_KNN.csv",
+ "sha256": "093ed2a0b6b325c28b53d23194facdccf0062bfb78c3c84eb53bf6854f287611",
+ "rows": 30,
+ "explanations": 90,
+ "wall_s": 523.7277109999995,
+ "workers": 1,
+ "machine": "pc",
+ "finished_utc": "2026-10-15T21:22:39+00:00"
+}

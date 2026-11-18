@@ -1,0 +1,14 @@
+{
+ "file": "shap\\SHAP_SVC_seed2.csv",
+ "sha256": "0557f1871cd6945d2532221399edc167c732c4224201ab9f281a93f22729d4e3",
+ "rows": 500,
+ "chunks": 50,
+ "wall_s": 53.73122479992162,
+ "worker_cpu_s": 53.359375,
+ "workers": 1,
+ "explainer": "PermutationExplainer (100 bg, max_evals 250)",
+ "output_scale": "probability",
+ "max_additivity_error": 1.5543122344752192e-15,
+ "machine": "pc",
+ "finished_utc": "2026-10-15T19:54:52+00:00"
+}

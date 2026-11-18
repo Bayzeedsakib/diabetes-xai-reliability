@@ -1,0 +1,41 @@
+model,descriptor,value
+LR,pipeline file size (MB),0.002
+LR,non-zero coefficients,21
+LR,parameters (coefficients + intercept),22
+DT,pipeline file size (MB),0.051
+DT,depth,10
+DT,leaves,693
+DT,nodes,1385
+RF,pipeline file size (MB),34.659
+RF,trees,200
+RF,depth mean,16.0
+RF,depth max,16
+RF,leaves total,950627
+RF,nodes total,1901054
+SVC,pipeline file size (MB),1.476
+SVC,calibrated copies (sigmoid),5
+SVC,non-zero coefficients per copy (mean),21.0
+SVC,parameters (copies x (coefficients + intercept) + 2 per calibrator),120
+KNN,pipeline file size (MB),2.811
+KNN,stored training rows,202944
+KNN,predictors,21
+KNN,k (n_neighbors),251
+KNN,metric,"minkowski p=1, weights=uniform"
+GNB,pipeline file size (MB),0.001
+GNB,"parameters (2 classes x 21 x (mean, variance) + 2 priors)",86
+XGB,pipeline file size (MB),1.352
+XGB,trees,539
+XGB,leaves total,52608
+XGB,max_depth (setting),7
+LGBM,pipeline file size (MB),1.469
+LGBM,trees,449
+LGBM,leaves total,33675
+LGBM,num_leaves (setting),75
+CAT,pipeline file size (MB),0.571
+CAT,trees (symmetric),532
+CAT,depth,7
+CAT,leaves total,68096
+MLP,pipeline file size (MB),0.084
+MLP,architecture (units per layer),21-64-32-1
+MLP,trainable parameters,3521
+MLP,training epochs (early stopping),25

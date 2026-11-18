@@ -1,0 +1,35 @@
+{
+  "model": "DT",
+  "model_name": "Decision Tree",
+  "config_id": 3,
+  "n_rank1_ties": 1,
+  "params": {
+    "clf__min_samples_split": 10,
+    "clf__min_samples_leaf": 50,
+    "clf__max_depth": 10,
+    "clf__criterion": "gini",
+    "clf__class_weight": "balanced"
+  },
+  "params_repr": {
+    "clf__min_samples_split": "10",
+    "clf__min_samples_leaf": "50",
+    "clf__max_depth": "10",
+    "clf__criterion": "'gini'",
+    "clf__class_weight": "'balanced'"
+  },
+  "mean_cv_ap": 0.4066268838033686,
+  "sd_cv_ap": 0.008144931715083,
+  "fold_ap": [
+    0.3968955510081372,
+    0.40588805706266257,
+    0.41916980119902086,
+    0.4117946132270877,
+    0.3993863965199347
+  ],
+  "tuned_on": "dev_folds.csv",
+  "tuning_rows": 202944,
+  "n_configs": 30,
+  "n_folds": 5,
+  "scoring": "average_precision",
+  "note": "selection score only; reported performance comes from Stage 4 (D7)"
+}

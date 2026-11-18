@@ -1,0 +1,360 @@
+unit,split,kind,model,setting,rows,row_set,explainer,output_scale,max_abs_additivity_error
+split1_boot01_CAT,1,boot,CAT,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.88738e-15
+split1_boot01_CAT,1,boot,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,7.53439e-08
+split1_boot01_XGB,1,boot,XGB,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.22045e-16
+split1_boot01_XGB,1,boot,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,6.41529e-06
+split1_boot01_LGBM,1,boot,LGBM,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.10942e-15
+split1_boot01_LGBM,1,boot,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.1319e-07
+split1_boot01_MLP,1,boot,MLP,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.66533e-15
+split1_boot01_MLP,1,boot,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.66533e-15
+split1_boot02_CAT,1,boot,CAT,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.10942e-15
+split1_boot02_CAT,1,boot,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,7.76235e-08
+split1_boot02_XGB,1,boot,XGB,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.11022e-16
+split1_boot02_XGB,1,boot,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,8.01819e-06
+split1_boot02_LGBM,1,boot,LGBM,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.55431e-15
+split1_boot02_LGBM,1,boot,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.15105e-07
+split1_boot02_MLP,1,boot,MLP,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.33227e-15
+split1_boot02_MLP,1,boot,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.33227e-15
+split1_boot03_CAT,1,boot,CAT,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.9984e-15
+split1_boot03_CAT,1,boot,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,8.28068e-08
+split1_boot03_XGB,1,boot,XGB,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.11022e-16
+split1_boot03_XGB,1,boot,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,5.69555e-06
+split1_boot03_LGBM,1,boot,LGBM,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.88738e-15
+split1_boot03_LGBM,1,boot,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.15227e-07
+split1_boot03_MLP,1,boot,MLP,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.66533e-15
+split1_boot03_MLP,1,boot,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.66533e-15
+split1_boot04_CAT,1,boot,CAT,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.10942e-15
+split1_boot04_CAT,1,boot,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.02347e-07
+split1_boot04_XGB,1,boot,XGB,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.11022e-16
+split1_boot04_XGB,1,boot,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,6.58835e-06
+split1_boot04_LGBM,1,boot,LGBM,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.55431e-15
+split1_boot04_LGBM,1,boot,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.2781e-07
+split1_boot04_MLP,1,boot,MLP,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.77636e-15
+split1_boot04_MLP,1,boot,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.77636e-15
+split1_boot05_CAT,1,boot,CAT,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.10942e-15
+split1_boot05_CAT,1,boot,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.06899e-07
+split1_boot05_XGB,1,boot,XGB,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.11022e-16
+split1_boot05_XGB,1,boot,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,6.11784e-06
+split1_boot05_LGBM,1,boot,LGBM,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.66533e-15
+split1_boot05_LGBM,1,boot,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.32416e-07
+split1_boot05_MLP,1,boot,MLP,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.77636e-15
+split1_boot05_MLP,1,boot,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.77636e-15
+split1_boot06_CAT,1,boot,CAT,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.77636e-15
+split1_boot06_CAT,1,boot,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.05104e-07
+split1_boot06_XGB,1,boot,XGB,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.22045e-16
+split1_boot06_XGB,1,boot,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,6.02656e-06
+split1_boot06_LGBM,1,boot,LGBM,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.77636e-15
+split1_boot06_LGBM,1,boot,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.2775e-07
+split1_boot06_MLP,1,boot,MLP,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.66533e-15
+split1_boot06_MLP,1,boot,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.66533e-15
+split1_boot07_CAT,1,boot,CAT,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.9984e-15
+split1_boot07_CAT,1,boot,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,9.48353e-08
+split1_boot07_XGB,1,boot,XGB,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.11022e-16
+split1_boot07_XGB,1,boot,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,5.7668e-06
+split1_boot07_LGBM,1,boot,LGBM,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.88738e-15
+split1_boot07_LGBM,1,boot,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.28608e-07
+split1_boot07_MLP,1,boot,MLP,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.44329e-15
+split1_boot07_MLP,1,boot,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.44329e-15
+split1_boot08_CAT,1,boot,CAT,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.22045e-15
+split1_boot08_CAT,1,boot,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,8.81499e-08
+split1_boot08_XGB,1,boot,XGB,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.11022e-16
+split1_boot08_XGB,1,boot,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,6.62578e-06
+split1_boot08_LGBM,1,boot,LGBM,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.77636e-15
+split1_boot08_LGBM,1,boot,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.23905e-07
+split1_boot08_MLP,1,boot,MLP,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.55431e-15
+split1_boot08_MLP,1,boot,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.55431e-15
+split1_boot09_CAT,1,boot,CAT,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.22045e-15
+split1_boot09_CAT,1,boot,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,7.60174e-08
+split1_boot09_XGB,1,boot,XGB,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.22045e-16
+split1_boot09_XGB,1,boot,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,4.47193e-06
+split1_boot09_LGBM,1,boot,LGBM,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.88738e-15
+split1_boot09_LGBM,1,boot,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.4694e-07
+split1_boot09_MLP,1,boot,MLP,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.33227e-15
+split1_boot09_MLP,1,boot,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.33227e-15
+split1_boot10_CAT,1,boot,CAT,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.10942e-15
+split1_boot10_CAT,1,boot,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,8.12912e-08
+split1_boot10_XGB,1,boot,XGB,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.11022e-16
+split1_boot10_XGB,1,boot,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,7.34693e-06
+split1_boot10_LGBM,1,boot,LGBM,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.88738e-15
+split1_boot10_LGBM,1,boot,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.2684e-07
+split1_boot10_MLP,1,boot,MLP,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.33227e-15
+split1_boot10_MLP,1,boot,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.33227e-15
+split2_boot01_CAT,2,boot,CAT,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.10942e-15
+split2_boot01_CAT,2,boot,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,9.82023e-08
+split2_boot01_XGB,2,boot,XGB,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.11022e-16
+split2_boot01_XGB,2,boot,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,5.52634e-06
+split2_boot01_LGBM,2,boot,LGBM,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.77636e-15
+split2_boot01_LGBM,2,boot,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.45695e-07
+split2_boot01_MLP,2,boot,MLP,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.66533e-15
+split2_boot01_MLP,2,boot,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.66533e-15
+split2_boot02_CAT,2,boot,CAT,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.88738e-15
+split2_boot02_CAT,2,boot,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,8.08788e-08
+split2_boot02_XGB,2,boot,XGB,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.22045e-16
+split2_boot02_XGB,2,boot,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,5.23602e-06
+split2_boot02_LGBM,2,boot,LGBM,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.22045e-15
+split2_boot02_LGBM,2,boot,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.90396e-07
+split2_boot02_MLP,2,boot,MLP,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.33227e-15
+split2_boot02_MLP,2,boot,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.33227e-15
+split2_boot03_CAT,2,boot,CAT,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.9984e-15
+split2_boot03_CAT,2,boot,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.00254e-07
+split2_boot03_XGB,2,boot,XGB,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.11022e-16
+split2_boot03_XGB,2,boot,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,4.87516e-06
+split2_boot03_LGBM,2,boot,LGBM,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.9984e-15
+split2_boot03_LGBM,2,boot,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.26225e-07
+split2_boot03_MLP,2,boot,MLP,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.66533e-15
+split2_boot03_MLP,2,boot,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.66533e-15
+split2_boot04_CAT,2,boot,CAT,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.9984e-15
+split2_boot04_CAT,2,boot,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.00945e-07
+split2_boot04_XGB,2,boot,XGB,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.22045e-16
+split2_boot04_XGB,2,boot,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,4.48566e-06
+split2_boot04_LGBM,2,boot,LGBM,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.88738e-15
+split2_boot04_LGBM,2,boot,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.83894e-07
+split2_boot04_MLP,2,boot,MLP,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.66533e-15
+split2_boot04_MLP,2,boot,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.66533e-15
+split2_boot05_CAT,2,boot,CAT,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.22045e-15
+split2_boot05_CAT,2,boot,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.05766e-07
+split2_boot05_XGB,2,boot,XGB,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.22045e-16
+split2_boot05_XGB,2,boot,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,3.54107e-06
+split2_boot05_LGBM,2,boot,LGBM,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.9984e-15
+split2_boot05_LGBM,2,boot,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.61817e-07
+split2_boot05_MLP,2,boot,MLP,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.10942e-15
+split2_boot05_MLP,2,boot,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.10942e-15
+split3_boot01_CAT,3,boot,CAT,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.9984e-15
+split3_boot01_CAT,3,boot,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,8.63674e-08
+split3_boot01_XGB,3,boot,XGB,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.11022e-16
+split3_boot01_XGB,3,boot,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,7.47918e-06
+split3_boot01_LGBM,3,boot,LGBM,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.10942e-15
+split3_boot01_LGBM,3,boot,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.55865e-07
+split3_boot01_MLP,3,boot,MLP,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.44329e-15
+split3_boot01_MLP,3,boot,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.44329e-15
+split3_boot02_CAT,3,boot,CAT,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.9984e-15
+split3_boot02_CAT,3,boot,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,7.72844e-08
+split3_boot02_XGB,3,boot,XGB,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.11022e-16
+split3_boot02_XGB,3,boot,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,5.84957e-06
+split3_boot02_LGBM,3,boot,LGBM,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.22045e-15
+split3_boot02_LGBM,3,boot,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.68054e-07
+split3_boot02_MLP,3,boot,MLP,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.33227e-15
+split3_boot02_MLP,3,boot,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.33227e-15
+split3_boot03_CAT,3,boot,CAT,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.9984e-15
+split3_boot03_CAT,3,boot,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,7.0456e-08
+split3_boot03_XGB,3,boot,XGB,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,5.55112e-17
+split3_boot03_XGB,3,boot,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,5.38199e-06
+split3_boot03_LGBM,3,boot,LGBM,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.22045e-15
+split3_boot03_LGBM,3,boot,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.45112e-07
+split3_boot03_MLP,3,boot,MLP,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.44329e-15
+split3_boot03_MLP,3,boot,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.44329e-15
+split3_boot04_CAT,3,boot,CAT,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.88738e-15
+split3_boot04_CAT,3,boot,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,7.60012e-08
+split3_boot04_XGB,3,boot,XGB,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.11022e-16
+split3_boot04_XGB,3,boot,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,6.32531e-06
+split3_boot04_LGBM,3,boot,LGBM,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.10942e-15
+split3_boot04_LGBM,3,boot,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.72686e-07
+split3_boot04_MLP,3,boot,MLP,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.22125e-15
+split3_boot04_MLP,3,boot,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.22125e-15
+split3_boot05_CAT,3,boot,CAT,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.9984e-15
+split3_boot05_CAT,3,boot,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,9.78834e-08
+split3_boot05_XGB,3,boot,XGB,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.11022e-16
+split3_boot05_XGB,3,boot,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,5.91936e-06
+split3_boot05_LGBM,3,boot,LGBM,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.10942e-15
+split3_boot05_LGBM,3,boot,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.42114e-07
+split3_boot05_MLP,3,boot,MLP,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.66533e-15
+split3_boot05_MLP,3,boot,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.66533e-15
+split4_boot01_CAT,4,boot,CAT,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.9984e-15
+split4_boot01_CAT,4,boot,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,7.9124e-08
+split4_boot01_XGB,4,boot,XGB,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.22045e-16
+split4_boot01_XGB,4,boot,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,5.0909e-06
+split4_boot01_LGBM,4,boot,LGBM,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.66533e-15
+split4_boot01_LGBM,4,boot,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.39957e-07
+split4_boot01_MLP,4,boot,MLP,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.55431e-15
+split4_boot01_MLP,4,boot,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.55431e-15
+split4_boot02_CAT,4,boot,CAT,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.88738e-15
+split4_boot02_CAT,4,boot,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,7.85987e-08
+split4_boot02_XGB,4,boot,XGB,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.11022e-16
+split4_boot02_XGB,4,boot,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,5.1988e-06
+split4_boot02_LGBM,4,boot,LGBM,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.88738e-15
+split4_boot02_LGBM,4,boot,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.21536e-07
+split4_boot02_MLP,4,boot,MLP,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.33227e-15
+split4_boot02_MLP,4,boot,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.33227e-15
+split4_boot03_CAT,4,boot,CAT,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.9984e-15
+split4_boot03_CAT,4,boot,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,7.94543e-08
+split4_boot03_XGB,4,boot,XGB,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.11022e-16
+split4_boot03_XGB,4,boot,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,5.66175e-06
+split4_boot03_LGBM,4,boot,LGBM,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.77636e-15
+split4_boot03_LGBM,4,boot,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.39477e-07
+split4_boot03_MLP,4,boot,MLP,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.44329e-15
+split4_boot03_MLP,4,boot,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.44329e-15
+split4_boot04_CAT,4,boot,CAT,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.9984e-15
+split4_boot04_CAT,4,boot,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,9.63631e-08
+split4_boot04_XGB,4,boot,XGB,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.11022e-16
+split4_boot04_XGB,4,boot,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,5.73517e-06
+split4_boot04_LGBM,4,boot,LGBM,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.77636e-15
+split4_boot04_LGBM,4,boot,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.2667e-07
+split4_boot04_MLP,4,boot,MLP,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.44329e-15
+split4_boot04_MLP,4,boot,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.44329e-15
+split4_boot05_CAT,4,boot,CAT,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.9984e-15
+split4_boot05_CAT,4,boot,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.04216e-07
+split4_boot05_XGB,4,boot,XGB,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.11022e-16
+split4_boot05_XGB,4,boot,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,5.51593e-06
+split4_boot05_LGBM,4,boot,LGBM,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.66533e-15
+split4_boot05_LGBM,4,boot,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.49454e-07
+split4_boot05_MLP,4,boot,MLP,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.44329e-15
+split4_boot05_MLP,4,boot,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.44329e-15
+split5_boot01_CAT,5,boot,CAT,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.9984e-15
+split5_boot01_CAT,5,boot,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,9.20283e-08
+split5_boot01_XGB,5,boot,XGB,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.11022e-16
+split5_boot01_XGB,5,boot,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,4.34082e-06
+split5_boot01_LGBM,5,boot,LGBM,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.10942e-15
+split5_boot01_LGBM,5,boot,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.63488e-07
+split5_boot01_MLP,5,boot,MLP,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.33227e-15
+split5_boot01_MLP,5,boot,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.33227e-15
+split5_boot02_CAT,5,boot,CAT,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.9984e-15
+split5_boot02_CAT,5,boot,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.00564e-07
+split5_boot02_XGB,5,boot,XGB,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.22045e-16
+split5_boot02_XGB,5,boot,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,6.22317e-06
+split5_boot02_LGBM,5,boot,LGBM,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.9984e-15
+split5_boot02_LGBM,5,boot,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.45591e-07
+split5_boot02_MLP,5,boot,MLP,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.55431e-15
+split5_boot02_MLP,5,boot,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.55431e-15
+split5_boot03_CAT,5,boot,CAT,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.10942e-15
+split5_boot03_CAT,5,boot,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,9.02158e-08
+split5_boot03_XGB,5,boot,XGB,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.22045e-16
+split5_boot03_XGB,5,boot,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,5.17933e-06
+split5_boot03_LGBM,5,boot,LGBM,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.10942e-15
+split5_boot03_LGBM,5,boot,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.2215e-07
+split5_boot03_MLP,5,boot,MLP,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.33227e-15
+split5_boot03_MLP,5,boot,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.33227e-15
+split5_boot04_CAT,5,boot,CAT,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.88738e-15
+split5_boot04_CAT,5,boot,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.03625e-07
+split5_boot04_XGB,5,boot,XGB,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.11022e-16
+split5_boot04_XGB,5,boot,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,5.72527e-06
+split5_boot04_LGBM,5,boot,LGBM,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.22045e-15
+split5_boot04_LGBM,5,boot,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.85656e-07
+split5_boot04_MLP,5,boot,MLP,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.66533e-15
+split5_boot04_MLP,5,boot,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.66533e-15
+split5_boot05_CAT,5,boot,CAT,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.22045e-15
+split5_boot05_CAT,5,boot,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,7.80804e-08
+split5_boot05_XGB,5,boot,XGB,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.11022e-16
+split5_boot05_XGB,5,boot,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,4.72576e-06
+split5_boot05_LGBM,5,boot,LGBM,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,2.10942e-15
+split5_boot05_LGBM,5,boot,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.46153e-07
+split5_boot05_MLP,5,boot,MLP,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.9984e-15
+split5_boot05_MLP,5,boot,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.9984e-15
+split1_boot01_LR,1,boot,LR,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.33227e-15
+split1_boot01_LR,1,boot,LR,native,500,core,"LinearExplainer (interventional, 500 bg, standardized inputs)",log-odds,1.77636e-15
+split1_boot01_RF,1,boot,RF,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.55431e-15
+split1_boot01_RF,1,boot,RF,native,500,core,"TreeExplainer (interventional, 500 bg)",probability,1.43197e-08
+split1_boot02_LR,1,boot,LR,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.55431e-15
+split1_boot02_LR,1,boot,LR,native,500,core,"LinearExplainer (interventional, 500 bg, standardized inputs)",log-odds,1.33227e-15
+split1_boot02_RF,1,boot,RF,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.33227e-15
+split1_boot02_RF,1,boot,RF,native,500,core,"TreeExplainer (interventional, 500 bg)",probability,1.3517e-08
+split1_boot03_LR,1,boot,LR,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.88738e-15
+split1_boot03_LR,1,boot,LR,native,500,core,"LinearExplainer (interventional, 500 bg, standardized inputs)",log-odds,1.77636e-15
+split1_boot03_RF,1,boot,RF,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.33227e-15
+split1_boot03_RF,1,boot,RF,native,500,core,"TreeExplainer (interventional, 500 bg)",probability,1.44649e-08
+split1_boot04_LR,1,boot,LR,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.55431e-15
+split1_boot04_LR,1,boot,LR,native,500,core,"LinearExplainer (interventional, 500 bg, standardized inputs)",log-odds,1.77636e-15
+split1_boot04_RF,1,boot,RF,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.27676e-15
+split1_boot04_RF,1,boot,RF,native,500,core,"TreeExplainer (interventional, 500 bg)",probability,1.39617e-08
+split1_boot05_LR,1,boot,LR,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.77636e-15
+split1_boot05_LR,1,boot,LR,native,500,core,"LinearExplainer (interventional, 500 bg, standardized inputs)",log-odds,1.77636e-15
+split1_boot05_RF,1,boot,RF,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.44329e-15
+split1_boot05_RF,1,boot,RF,native,500,core,"TreeExplainer (interventional, 500 bg)",probability,1.43556e-08
+split1_boot06_LR,1,boot,LR,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.22125e-15
+split1_boot06_LR,1,boot,LR,native,500,core,"LinearExplainer (interventional, 500 bg, standardized inputs)",log-odds,1.77636e-15
+split1_boot06_RF,1,boot,RF,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.88738e-15
+split1_boot06_RF,1,boot,RF,native,500,core,"TreeExplainer (interventional, 500 bg)",probability,1.32008e-08
+split1_boot07_LR,1,boot,LR,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.77636e-15
+split1_boot07_LR,1,boot,LR,native,500,core,"LinearExplainer (interventional, 500 bg, standardized inputs)",log-odds,1.33227e-15
+split1_boot07_RF,1,boot,RF,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.33227e-15
+split1_boot07_RF,1,boot,RF,native,500,core,"TreeExplainer (interventional, 500 bg)",probability,1.46159e-08
+split1_boot08_LR,1,boot,LR,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.33227e-15
+split1_boot08_LR,1,boot,LR,native,500,core,"LinearExplainer (interventional, 500 bg, standardized inputs)",log-odds,1.77636e-15
+split1_boot08_RF,1,boot,RF,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.88738e-15
+split1_boot08_RF,1,boot,RF,native,500,core,"TreeExplainer (interventional, 500 bg)",probability,1.5171e-08
+split1_boot09_LR,1,boot,LR,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.77636e-15
+split1_boot09_LR,1,boot,LR,native,500,core,"LinearExplainer (interventional, 500 bg, standardized inputs)",log-odds,1.33227e-15
+split1_boot09_RF,1,boot,RF,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.55431e-15
+split1_boot09_RF,1,boot,RF,native,500,core,"TreeExplainer (interventional, 500 bg)",probability,1.51321e-08
+split1_boot10_LR,1,boot,LR,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.22125e-15
+split1_boot10_LR,1,boot,LR,native,500,core,"LinearExplainer (interventional, 500 bg, standardized inputs)",log-odds,1.33227e-15
+split1_boot10_RF,1,boot,RF,common,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.55431e-15
+split1_boot10_RF,1,boot,RF,native,500,core,"TreeExplainer (interventional, 500 bg)",probability,1.60975e-08
+split1_seed01_XGB,1,seed,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,6.86585e-06
+split1_seed01_LGBM,1,seed,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.21753e-07
+split1_seed01_CAT,1,seed,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,7.81792e-08
+split1_seed01_MLP,1,seed,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.22125e-15
+split1_seed01_RF,1,seed,RF,native,500,core,"TreeExplainer (interventional, 500 bg)",probability,1.70283e-08
+split1_seed02_XGB,1,seed,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,5.24725e-06
+split1_seed02_LGBM,1,seed,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.48013e-07
+split1_seed02_CAT,1,seed,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,8.21266e-08
+split1_seed02_MLP,1,seed,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.66533e-15
+split1_seed02_RF,1,seed,RF,native,500,core,"TreeExplainer (interventional, 500 bg)",probability,1.75539e-08
+split1_seed03_XGB,1,seed,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,6.6277e-06
+split1_seed03_LGBM,1,seed,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.63386e-07
+split1_seed03_CAT,1,seed,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,8.14441e-08
+split1_seed03_MLP,1,seed,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.55431e-15
+split1_seed03_RF,1,seed,RF,native,500,core,"TreeExplainer (interventional, 500 bg)",probability,1.6142e-08
+split1_seed04_XGB,1,seed,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,5.51581e-06
+split1_seed04_LGBM,1,seed,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.67707e-07
+split1_seed04_CAT,1,seed,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,8.03579e-08
+split1_seed04_MLP,1,seed,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.55431e-15
+split1_seed04_RF,1,seed,RF,native,500,core,"TreeExplainer (interventional, 500 bg)",probability,1.466e-08
+split1_seed05_XGB,1,seed,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,6.09759e-06
+split1_seed05_LGBM,1,seed,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.52188e-07
+split1_seed05_CAT,1,seed,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,9.80377e-08
+split1_seed05_MLP,1,seed,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.22125e-15
+split1_seed05_RF,1,seed,RF,native,500,core,"TreeExplainer (interventional, 500 bg)",probability,1.38903e-08
+split1_rash_c18_LR,1,rash,LR,native,500,core,"LinearExplainer (interventional, 500 bg, standardized inputs)",log-odds,1.77636e-15
+split1_rash_c16_LR,1,rash,LR,native,500,core,"LinearExplainer (interventional, 500 bg, standardized inputs)",log-odds,1.77636e-15
+split1_rash_c22_LR,1,rash,LR,native,500,core,"LinearExplainer (interventional, 500 bg, standardized inputs)",log-odds,1.77636e-15
+split1_rash_c01_LR,1,rash,LR,native,500,core,"LinearExplainer (interventional, 500 bg, standardized inputs)",log-odds,1.33227e-15
+split1_rash_c26_LR,1,rash,LR,native,500,core,"LinearExplainer (interventional, 500 bg, standardized inputs)",log-odds,1.33227e-15
+split1_rash_c19_LR,1,rash,LR,native,500,core,"LinearExplainer (interventional, 500 bg, standardized inputs)",log-odds,2.22045e-15
+split1_rash_c27_LR,1,rash,LR,native,500,core,"LinearExplainer (interventional, 500 bg, standardized inputs)",log-odds,1.77636e-15
+split1_rash_c06_LR,1,rash,LR,native,500,core,"LinearExplainer (interventional, 500 bg, standardized inputs)",log-odds,1.77636e-15
+split1_rash_c24_LR,1,rash,LR,native,500,core,"LinearExplainer (interventional, 500 bg, standardized inputs)",log-odds,1.33227e-15
+split1_rash_c11_XGB,1,rash,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,6.89227e-06
+split1_rash_c07_XGB,1,rash,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,2.81832e-06
+split1_rash_c24_XGB,1,rash,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,5.23702e-06
+split1_rash_c09_XGB,1,rash,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,2.79336e-06
+split1_rash_c15_XGB,1,rash,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,8.06919e-06
+split1_rash_c14_XGB,1,rash,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,5.36457e-06
+split1_rash_c23_XGB,1,rash,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,4.5975e-06
+split1_rash_c12_XGB,1,rash,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,8.25274e-06
+split1_rash_c26_XGB,1,rash,XGB,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,5.04121e-06
+split1_rash_c07_LGBM,1,rash,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.30667e-07
+split1_rash_c03_LGBM,1,rash,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.31286e-07
+split1_rash_c29_LGBM,1,rash,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.01564e-07
+split1_rash_c28_LGBM,1,rash,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.42934e-07
+split1_rash_c22_LGBM,1,rash,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.64674e-07
+split1_rash_c11_LGBM,1,rash,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.71058e-07
+split1_rash_c01_LGBM,1,rash,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.52603e-07
+split1_rash_c24_LGBM,1,rash,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.40205e-07
+split1_rash_c12_LGBM,1,rash,LGBM,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,1.17313e-07
+split1_rash_c29_MLP,1,rash,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.44329e-15
+split1_rash_c03_MLP,1,rash,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.77636e-15
+split1_rash_c27_MLP,1,rash,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.33227e-15
+split1_rash_c25_MLP,1,rash,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.55431e-15
+split1_rash_c01_MLP,1,rash,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.33227e-15
+split1_rash_c18_MLP,1,rash,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.44329e-15
+split1_rash_c09_MLP,1,rash,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.44329e-15
+split1_rash_c00_MLP,1,rash,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.44329e-15
+split1_rash_c26_MLP,1,rash,MLP,native,500,core,"PermutationExplainer (100 bg, max_evals 250)",probability,1.66533e-15
+split1_rash_c09_RF,1,rash,RF,native,500,core,"TreeExplainer (interventional, 500 bg)",probability,1.71714e-08
+split1_rash_c22_RF,1,rash,RF,native,500,core,"TreeExplainer (interventional, 500 bg)",probability,1.61159e-08
+split1_rash_c12_RF,1,rash,RF,native,500,core,"TreeExplainer (interventional, 500 bg)",probability,1.83248e-08
+split1_rash_c27_RF,1,rash,RF,native,500,core,"TreeExplainer (interventional, 500 bg)",probability,1.58789e-08
+split1_rash_c25_RF,1,rash,RF,native,500,core,"TreeExplainer (interventional, 500 bg)",probability,2.64808e-08
+split1_rash_c14_RF,1,rash,RF,native,500,core,"TreeExplainer (interventional, 500 bg)",probability,1.9489e-08
+split1_rash_c15_RF,1,rash,RF,native,500,core,"TreeExplainer (interventional, 500 bg)",probability,2.15281e-08
+split1_rash_c00_RF,1,rash,RF,native,500,core,"TreeExplainer (interventional, 500 bg)",probability,1.77429e-08
+split1_rash_c13_RF,1,rash,RF,native,500,core,"TreeExplainer (interventional, 500 bg)",probability,1.81242e-08
+split1_rash_c20_CAT,1,rash,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,6.35139e-08
+split1_rash_c22_CAT,1,rash,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,6.28782e-08
+split1_rash_c12_CAT,1,rash,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,9.16912e-08
+split1_rash_c08_CAT,1,rash,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,6.64588e-08
+split1_rash_c11_CAT,1,rash,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,6.2302e-08
+split1_rash_c15_CAT,1,rash,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,7.11632e-08
+split1_rash_c01_CAT,1,rash,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,9.04584e-08
+split1_rash_c26_CAT,1,rash,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,5.86762e-08
+split1_rash_c03_CAT,1,rash,CAT,native,500,core,"TreeExplainer (interventional, 500 bg)",log-odds,5.70905e-08

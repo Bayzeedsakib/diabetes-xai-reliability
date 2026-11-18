@@ -1,0 +1,10 @@
+{
+ "files": {
+  "split5/CAT/cv_results.csv": "4bfc00051a9744b8243610d8d9ceb578305f78db1f2974e6ba3a42c47ff1aa12",
+  "split5/CAT/oof.csv": "2bafe7886dc82f0282db66e73a72554e5f963a7eb0ff0602183f3788a247faa3",
+  "split5/CAT/test_predictions.csv": "01d96da5e4d234e979f037385b2a207f84c768c0d5adcf6164309b27ce854c82",
+  "split5/CAT/summary.json": "be867ba101a14ac92b8601167e6c16dd6457c8abd8bf6179408aa768d71a6f88"
+ },
+ "machine": "pc",
+ "finished_utc": "2026-11-03T23:43:01+00:00"
+}

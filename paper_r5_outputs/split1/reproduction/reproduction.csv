@@ -1,0 +1,8 @@
+split,model,source,r4_pipeline_on_pc,path,model_sha256,max_abs_diff,rows_differing,exact,pass,seconds
+1,LR,frozen thesis pipeline,-,stage3_outputs\models\LR\pipeline_LR.joblib,2deb4902b2c4030c3d9a5cfcdc8474d9a8754462fd6378e65cc6711ca1c90966,0.0,0,True,True,0.0
+1,XGB,frozen thesis pipeline,-,stage3_outputs\models\XGB\pipeline_XGB.joblib,f397dc6db4095323b18c007b9cd8f22668c6b89c2bce53ae760a9460bdc7b062,0.0,0,True,True,0.2
+1,LGBM,frozen thesis pipeline,-,stage3_outputs\models\LGBM\pipeline_LGBM.joblib,4b5d7646db5457245c4c8f8a7f6a360cfb2d8f8de50176e92aeffc18bf671997,0.0,0,True,True,0.4
+1,MLP,frozen thesis pipeline,-,stage3_outputs\models\MLP\pipeline_MLP.joblib,e58354518e9b8b13042f9cdde8b8576019a1b7bf1c5fd247cf8a8d2cf58c744f,0.0,0,True,True,0.1
+1,RF,frozen thesis pipeline,-,stage3_outputs\models\RF\pipeline_RF.joblib,3be59116e250dd553b631511bd8392087d8144997892f4569bdae68253f0ea99,0.0,0,True,True,2.4
+1,CAT,frozen thesis pipeline,-,stage3_outputs\models\CAT\pipeline_CAT.joblib,20a890f1b8fe43ffe200e0f75d35addd1c59d9c9add27c47e577667d89d92472,0.0,0,True,True,0.7
+1,ALT_XGB,refit (Altamimi settings),not saved by R4,paper_r5_outputs\models\split1_ALT_XGB.joblib,9b0a76603125481f72f8e4d5aaff101cdfb848b51e58a6a62720cf323f3b7f75,0.0,0,True,True,2.0

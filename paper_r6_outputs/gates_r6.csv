@@ -1,0 +1,47 @@
+check,pass,detail
+Stage 4 freeze,True,
+split 1 frozen pipeline LR,True,
+split 1 frozen pipeline XGB,True,
+split 1 frozen pipeline LGBM,True,
+split 1 frozen pipeline MLP,True,
+split 1 frozen pipeline RF,True,
+split 1 frozen pipeline CAT,True,
+Stage 5 test_predictions.csv,True,
+Stage 1 dev_folds.csv,True,
+Stage 1 shap_background_500_dev.csv,True,
+Stage 1 shap_perm_background_100_dev.csv,True,
+Stage 1 shap_perm_core_500_test.csv,True,
+SHA256SUMS_r4.txt found and unchanged,True,C:\Users\USER\Downloads\thesis_xai\r4_upload\SHA256SUMS_r4.txt
+R4 files vs SHA256SUMS_r4.txt,True,165/165
+MANIFEST_splits2_3_4_5.csv,True,
+split 2-5 index files vs MANIFEST,True,24/24
+SHA256SUMS_r5.txt found and unchanged,True,C:\Users\USER\Downloads\thesis_xai\r5_upload\SHA256SUMS_r5.txt
+R5 files vs SHA256SUMS_r5.txt,True,151/151
+split 1 CAT: R5 used the frozen pipeline,True,
+split 1 XGB: R5 used the frozen pipeline,True,
+split 1 LGBM: R5 used the frozen pipeline,True,
+split 1 MLP: R5 used the frozen pipeline,True,
+split 1 LR: R5 used the frozen pipeline,True,
+split 1 RF: R5 used the frozen pipeline,True,
+split 2 CAT: R5 model file = reproduction record,True,refit (config 7)
+split 2 XGB: R5 model file = reproduction record,True,refit (config 24)
+split 2 LGBM: R5 model file = reproduction record,True,refit (config 3)
+split 2 MLP: R5 model file = reproduction record,True,refit (config 9)
+split 3 CAT: R5 model file = reproduction record,True,refit (config 22)
+split 3 XGB: R5 model file = reproduction record,True,refit (config 24)
+split 3 LGBM: R5 model file = reproduction record,True,refit (config 7)
+split 3 MLP: R5 model file = reproduction record,True,refit (config 10)
+split 4 CAT: R5 model file = reproduction record,True,refit (config 7)
+split 4 XGB: R5 model file = reproduction record,True,refit (config 11)
+split 4 LGBM: R5 model file = reproduction record,True,refit (config 19)
+split 4 MLP: R5 model file = reproduction record,True,refit (config 25)
+split 5 CAT: R5 model file = reproduction record,True,refit (config 7)
+split 5 XGB: R5 model file = reproduction record,True,refit (config 24)
+split 5 LGBM: R5 model file = reproduction record,True,refit (config 7)
+split 5 MLP: R5 model file = reproduction record,True,refit (config 29)
+"Stage 3 cv_results_LR.csv (30 configurations, rank 1 = frozen config)",True,f370b00c3e73c86cb0b341f33820b0ee6e64f6980f49d92b3231112a46e28daa
+"Stage 3 cv_results_XGB.csv (30 configurations, rank 1 = frozen config)",True,0bfc150525c2adca8dd998623df2b0935951acf9b09a61045a8782c06a0652f3
+"Stage 3 cv_results_LGBM.csv (30 configurations, rank 1 = frozen config)",True,1bde11093ca0990cb0f29806013ffc69d8402f50d069fdca7ba3fdbf6ff98f7d
+"Stage 3 cv_results_MLP.csv (30 configurations, rank 1 = frozen config)",True,4b283a2365544c3dc427938c72768952ef11f5ccb71052b11a8204db23822f02
+"Stage 3 cv_results_RF.csv (30 configurations, rank 1 = frozen config)",True,f69f2f2fbe0e7abc43b7294fe1aa9895baaef542fe39e747b5c91cfbea59cd54
+"Stage 3 cv_results_CAT.csv (30 configurations, rank 1 = frozen config)",True,d7b22e37c9f18ab81c63f837034a8a8af707739f9052b9f9d2744d3f7584d001

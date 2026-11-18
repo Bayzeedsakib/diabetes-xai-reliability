@@ -1,0 +1,10 @@
+{
+ "files": {
+  "split3/XGB/cv_results.csv": "74b6aa9add90c2d09ac811cbd4b2a0be47cbab58f8e652a3d4411a79a24fe369",
+  "split3/XGB/oof.csv": "6838a719641932f0031e84900917c800477bcf388551da6538977b0bec3b2302",
+  "split3/XGB/test_predictions.csv": "561b4afda2582b3f717392da4a38c43cf7af69d941b03e51d595afb87a7da7d4",
+  "split3/XGB/summary.json": "eefe3bc61971938192d052c3b2eebff6042b0b1b2e72cea7714acc8f2ce05199"
+ },
+ "machine": "pc",
+ "finished_utc": "2026-11-03T19:10:14+00:00"
+}

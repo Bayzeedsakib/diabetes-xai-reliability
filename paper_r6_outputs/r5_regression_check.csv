@@ -1,0 +1,23 @@
+split,model,rows,core_rows_checked,core_output_prob_max_diff,core_output_native_max_diff,common_values_max_diff,common_base_max_diff,native_values_max_diff,native_base_max_diff,native_tolerance,r5_mlp_native_equals_common,worker_path_byte_identical,pass
+1,CAT,5,500,0,0,0,0,0,0,1e-10,True,True,True
+1,XGB,5,500,0,0,0,0,0,0,1e-10,True,not used,True
+1,LGBM,5,500,0,0,0,0,0,0,1e-10,True,not used,True
+1,MLP,5,500,1.11e-16,1.11e-16,0,0,0,0,0,True,False,True
+1,LR,5,500,2.22e-16,0,0,0,0,0,1e-10,True,True,True
+1,RF,5,500,0,0,0,0,0,0,1e-10,True,True,True
+2,CAT,5,500,0,0,0,0,0,0,1e-10,True,True,True
+2,XGB,5,500,0,0,0,0,0,0,1e-10,True,not used,True
+2,LGBM,5,500,0,0,0,0,0,0,1e-10,True,not used,True
+2,MLP,5,500,1.11e-16,1.11e-16,0,0,0,0,0,True,False,True
+3,CAT,5,500,0,0,0,0,0,0,1e-10,True,True,True
+3,XGB,5,500,0,0,0,0,0,0,1e-10,True,not used,True
+3,LGBM,5,500,0,0,0,0,0,0,1e-10,True,not used,True
+3,MLP,5,500,1.11e-16,1.11e-16,0,0,0,0,0,True,False,True
+4,CAT,5,500,0,0,0,0,0,0,1e-10,True,True,True
+4,XGB,5,500,0,0,0,0,0,0,1e-10,True,not used,True
+4,LGBM,5,500,0,0,0,0,0,0,1e-10,True,not used,True
+4,MLP,5,500,1.11e-16,1.11e-16,0,0,0,0,0,True,False,True
+5,CAT,5,500,0,0,0,0,0,0,1e-10,True,True,True
+5,XGB,5,500,0,0,0,0,0,0,1e-10,True,not used,True
+5,LGBM,5,500,0,0,0,0,0,0,1e-10,True,not used,True
+5,MLP,5,500,1.11e-16,1.11e-16,0,0,0,0,0,True,False,True

@@ -1,0 +1,14 @@
+{
+ "file": "shap\\SHAP_DT.csv",
+ "sha256": "b640705e2e8e8a66d47701f34816b7fc271a7933cff121dbc0615b6179166b39",
+ "rows": 2029,
+ "chunks": 41,
+ "wall_s": 6.729240999993635,
+ "worker_cpu_s": 6.0625,
+ "workers": 6,
+ "explainer": "TreeExplainer (interventional, 500 bg)",
+ "output_scale": "probability",
+ "max_additivity_error": 6.42015824947606e-08,
+ "machine": "pc",
+ "finished_utc": "2026-10-15T19:28:05+00:00"
+}

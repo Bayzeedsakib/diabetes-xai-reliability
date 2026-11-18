@@ -1,0 +1,27 @@
+{
+  "model": "GNB",
+  "model_name": "Gaussian Naive Bayes",
+  "config_id": 16,
+  "n_rank1_ties": 1,
+  "params": {
+    "clf__var_smoothing": 0.0003775996083340724
+  },
+  "params_repr": {
+    "clf__var_smoothing": "0.0003775996083340724"
+  },
+  "mean_cv_ap": 0.35053038144961296,
+  "sd_cv_ap": 0.004236623302227189,
+  "fold_ap": [
+    0.3520401235762351,
+    0.3506556188952126,
+    0.3575288601115022,
+    0.3469891764125209,
+    0.34543812825259407
+  ],
+  "tuned_on": "dev_folds.csv",
+  "tuning_rows": 202944,
+  "n_configs": 30,
+  "n_folds": 5,
+  "scoring": "average_precision",
+  "note": "selection score only; reported performance comes from Stage 4 (D7)"
+}

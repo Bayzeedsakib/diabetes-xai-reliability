@@ -1,0 +1,14 @@
+{
+ "file": "shap\\SHAP_CAT.csv",
+ "sha256": "9ce71e929b495d76817e66485e7991f338909ca7cf139de969d4c9d593bdb516",
+ "rows": 2029,
+ "chunks": 41,
+ "wall_s": 121.30471559999569,
+ "worker_cpu_s": 693.390625,
+ "workers": 6,
+ "explainer": "TreeExplainer (interventional, 500 bg)",
+ "output_scale": "log-odds",
+ "max_additivity_error": 1.014518193898084e-07,
+ "machine": "pc",
+ "finished_utc": "2026-10-15T19:33:17+00:00"
+}

@@ -1,0 +1,41 @@
+{
+  "model": "LGBM",
+  "model_name": "LightGBM",
+  "config_id": 19,
+  "n_rank1_ties": 1,
+  "params": {
+    "clf__colsample_bytree": 0.9987142156893605,
+    "clf__learning_rate": 0.014468190564981288,
+    "clf__min_child_samples": 105,
+    "clf__n_estimators": 449,
+    "clf__num_leaves": 75,
+    "clf__reg_lambda": 0.4954468310818483,
+    "clf__scale_pos_weight": 2.0,
+    "clf__subsample": 0.6925335507776357
+  },
+  "params_repr": {
+    "clf__colsample_bytree": "0.9987142156893605",
+    "clf__learning_rate": "0.014468190564981288",
+    "clf__min_child_samples": "105",
+    "clf__n_estimators": "449",
+    "clf__num_leaves": "75",
+    "clf__reg_lambda": "0.4954468310818483",
+    "clf__scale_pos_weight": "2.0",
+    "clf__subsample": "0.6925335507776357"
+  },
+  "mean_cv_ap": 0.43626648608000995,
+  "sd_cv_ap": 0.007156926351492521,
+  "fold_ap": [
+    0.42610619861939125,
+    0.4350262744166184,
+    0.4471116195126811,
+    0.4406409526063871,
+    0.43244738524497206
+  ],
+  "tuned_on": "dev_folds.csv",
+  "tuning_rows": 202944,
+  "n_configs": 30,
+  "n_folds": 5,
+  "scoring": "average_precision",
+  "note": "selection score only; reported performance comes from Stage 4 (D7)"
+}

@@ -1,0 +1,36 @@
+split,model,source,r4_pipeline_on_pc,path,model_sha256,max_abs_diff,rows_differing,exact,pass,seconds
+1,LR,frozen thesis pipeline,-,stage3_outputs\models\LR\pipeline_LR.joblib,2deb4902b2c4030c3d9a5cfcdc8474d9a8754462fd6378e65cc6711ca1c90966,0.0,0,True,True,0.0
+1,XGB,frozen thesis pipeline,-,stage3_outputs\models\XGB\pipeline_XGB.joblib,f397dc6db4095323b18c007b9cd8f22668c6b89c2bce53ae760a9460bdc7b062,0.0,0,True,True,0.2
+1,LGBM,frozen thesis pipeline,-,stage3_outputs\models\LGBM\pipeline_LGBM.joblib,4b5d7646db5457245c4c8f8a7f6a360cfb2d8f8de50176e92aeffc18bf671997,0.0,0,True,True,0.4
+1,MLP,frozen thesis pipeline,-,stage3_outputs\models\MLP\pipeline_MLP.joblib,e58354518e9b8b13042f9cdde8b8576019a1b7bf1c5fd247cf8a8d2cf58c744f,0.0,0,True,True,0.1
+1,RF,frozen thesis pipeline,-,stage3_outputs\models\RF\pipeline_RF.joblib,3be59116e250dd553b631511bd8392087d8144997892f4569bdae68253f0ea99,0.0,0,True,True,2.4
+1,CAT,frozen thesis pipeline,-,stage3_outputs\models\CAT\pipeline_CAT.joblib,20a890f1b8fe43ffe200e0f75d35addd1c59d9c9add27c47e577667d89d92472,0.0,0,True,True,0.7
+1,ALT_XGB,refit (Altamimi settings),not saved by R4,paper_r5_outputs\models\split1_ALT_XGB.joblib,9b0a76603125481f72f8e4d5aaff101cdfb848b51e58a6a62720cf323f3b7f75,0.0,0,True,True,2.0
+2,LR,refit (config 16),hash = summary.json,paper_r5_outputs\models\split2_LR.joblib,720073f540fd3f3b5f9a3bec39758362582ebdbdaefdd3a9e111eb110ec3ba8d,0.0,0,True,True,11.2
+2,XGB,refit (config 24),hash = summary.json,paper_r5_outputs\models\split2_XGB.joblib,a2ef8262ee33f5785e62592fe9dc595220bff575affc89418c97e2ee5ad850c4,0.0,0,True,True,3.1
+2,LGBM,refit (config 3),hash = summary.json,paper_r5_outputs\models\split2_LGBM.joblib,c8e470fc5de4d40ce9bd1bdbd383dab5fccf71c3277eccc0c0041d33889ffdde,0.0,0,True,True,2.9
+2,MLP,refit (config 9),hash = summary.json,paper_r5_outputs\models\split2_MLP.joblib,5d52b652fc835d8bd6081c33fe3eb0d826e9419d94c3507645664db3d08bf305,0.0,0,True,True,36.9
+2,RF,refit (config 9),hash = summary.json,paper_r5_outputs\models\split2_RF.joblib,0d29f882007cf9b5f7003cd75eb9dd200c3dcefaec300cf57515d0b21988b1ea,0.0,0,True,True,11.8
+2,CAT,refit (config 7),hash = summary.json,paper_r5_outputs\models\split2_CAT.joblib,6fbe859b37e6b739f4dc8615c51fd9c1836f06ed93ba7dd0ef9c4cac267597f3,0.0,0,True,True,20.5
+2,ALT_XGB,refit (Altamimi settings),not saved by R4,paper_r5_outputs\models\split2_ALT_XGB.joblib,59aca70ffeecd8cf0069ee2fbd9ffbddfc13d3f2ffd106ff3fbedf952da6ee6b,0.0,0,True,True,2.2
+3,LR,refit (config 18),hash = summary.json,paper_r5_outputs\models\split3_LR.joblib,cf692c133254cfde61f53ed72d580f3aca3860a8c675d2b6cd032f057823d0f9,0.0,0,True,True,1.7
+3,XGB,refit (config 24),hash = summary.json,paper_r5_outputs\models\split3_XGB.joblib,d577446c9365fa4f9efc997d5def135bd3a3c93afb72dcdfb7f100e976e6fbee,0.0,0,True,True,3.3
+3,LGBM,refit (config 7),hash = summary.json,paper_r5_outputs\models\split3_LGBM.joblib,4a13327330d62bdb68611682c6c1b9b78125849edf3777e3165bbceda6b14785,0.0,0,True,True,3.0
+3,MLP,refit (config 10),hash = summary.json,paper_r5_outputs\models\split3_MLP.joblib,a31190e562aae66dcff6ee7087c3b274ba454933069be39fb975f9505804aecb,0.0,0,True,True,12.8
+3,RF,refit (config 6),hash = summary.json,paper_r5_outputs\models\split3_RF.joblib,6bbf330cce3d57ed8efd22026a655afca08e29907783be36a0c74b2f1e91dba7,0.0,0,True,True,17.3
+3,CAT,refit (config 22),hash = summary.json,paper_r5_outputs\models\split3_CAT.joblib,8049a0e828ec08813331c92d50f8a52fc689c7cb74a3ffbb6c85f72785c0f8af,0.0,0,True,True,17.8
+3,ALT_XGB,refit (Altamimi settings),not saved by R4,paper_r5_outputs\models\split3_ALT_XGB.joblib,39530f3b55663e94ad574c7737b1fdb7483cd4dd6b9be3ec65b6a6d1766ed91a,0.0,0,True,True,2.3
+4,LR,refit (config 18),hash = summary.json,paper_r5_outputs\models\split4_LR.joblib,d8fc24a9e2481c2681f9d267e06f5bb9f4e160b87b1fdf02ef5c6f737eeab011,0.0,0,True,True,1.5
+4,XGB,refit (config 11),hash = summary.json,paper_r5_outputs\models\split4_XGB.joblib,03b75d71eacec9288fa124efac8444a70356bd13fb243cbf1680434357be8cce,0.0,0,True,True,6.1
+4,LGBM,refit (config 19),hash = summary.json,paper_r5_outputs\models\split4_LGBM.joblib,a8006bf854226a4742b5a605e0c08be637b838d5e88287672933c725f72b4c26,0.0,0,True,True,3.8
+4,MLP,refit (config 25),hash = summary.json,paper_r5_outputs\models\split4_MLP.joblib,ff5536d15ccd47e2ae27bc62e6192acf7b546f4be22ec7fd3dcc57fbb82a04f0,0.0,0,True,True,12.4
+4,RF,refit (config 9),hash = summary.json,paper_r5_outputs\models\split4_RF.joblib,47d2eca41d34afe46c41eb9b9e03026fd1ead7d7a5237209e548f4b85b572442,0.0,0,True,True,13.5
+4,CAT,refit (config 7),hash = summary.json,paper_r5_outputs\models\split4_CAT.joblib,80d65e42b798f5cc298a502bc1df05e97dbf6fa0fef7e0e2e2f94ce882211d62,0.0,0,True,True,21.2
+4,ALT_XGB,refit (Altamimi settings),not saved by R4,paper_r5_outputs\models\split4_ALT_XGB.joblib,27b6bf10f1e170154b16489b5c0529747f219335117a20e2a5f627f742eb4145,0.0,0,True,True,2.3
+5,LR,refit (config 16),hash = summary.json,paper_r5_outputs\models\split5_LR.joblib,b79725206de41e864c76887fafe7306e0b5e2c1fae9c4966de5b3917bbf1f749,0.0,0,True,True,11.0
+5,XGB,refit (config 24),hash = summary.json,paper_r5_outputs\models\split5_XGB.joblib,639844a9b3f080c9880743db28b9359214d617a7ba316c54e631b7ca306c3d0d,0.0,0,True,True,3.3
+5,LGBM,refit (config 7),hash = summary.json,paper_r5_outputs\models\split5_LGBM.joblib,ed7a2a99244b666352b7472cbc84cd5e9a3ef47b29dbe8672285617b217ec5dd,0.0,0,True,True,3.2
+5,MLP,refit (config 29),hash = summary.json,paper_r5_outputs\models\split5_MLP.joblib,021164100af5aad7d1ce54fa8012cda10fd795a17d4ba7e745913675fe986431,0.0,0,True,True,15.8
+5,RF,refit (config 9),hash = summary.json,paper_r5_outputs\models\split5_RF.joblib,842d7c49decf9fd6937c2c20900b96be2b601226244cf4e82fab481f5f1a3e9b,0.0,0,True,True,15.9
+5,CAT,refit (config 7),hash = summary.json,paper_r5_outputs\models\split5_CAT.joblib,c4da6b23550b97af4fd5adc697022acb6553419b045bb01b03553a564b9f2d99,0.0,0,True,True,24.2
+5,ALT_XGB,refit (Altamimi settings),not saved by R4,paper_r5_outputs\models\split5_ALT_XGB.joblib,6f552a80b19c2684f73fe8bf63d0f79efe286614ddee5ef195aca49421fb5deb,0.0,0,True,True,3.3

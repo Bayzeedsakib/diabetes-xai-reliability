@@ -1,0 +1,20 @@
+set,drawn_from,n,n_pos,n_neg,pct_pos
+Full file,-,253680,35346,218334,13.933
+Development,full file,202944,28277,174667,13.933
+Test,full file,50736,7069,43667,13.933
+Development fold 0,development,40589,5655,34934,13.932
+Development fold 1,development,40589,5655,34934,13.932
+Development fold 2,development,40589,5656,34933,13.935
+Development fold 3,development,40589,5656,34933,13.935
+Development fold 4,development,40588,5655,34933,13.933
+"Tuning subsample (KNN, MLP)",development,50000,6965,43035,13.93
+Subsample fold 0,subsample,10000,1393,8607,13.93
+Subsample fold 1,subsample,10000,1393,8607,13.93
+Subsample fold 2,subsample,10000,1393,8607,13.93
+Subsample fold 3,subsample,10000,1393,8607,13.93
+Subsample fold 4,subsample,10000,1393,8607,13.93
+SHAP background,development,500,70,430,14.0
+Permutation background,SHAP background,100,14,86,14.0
+Global explanation sample,test,2000,279,1721,13.95
+Permutation core sample,global sample,500,70,430,14.0
+"Test rows, novel 21-predictor profile",test,43817,6744,37073,15.391

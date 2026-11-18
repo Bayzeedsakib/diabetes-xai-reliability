@@ -1,0 +1,11 @@
+model,status,machine,tuned_on,tuning_rows,best_config_id,n_rank1_ties,mean_cv_ap,sd_cv_ap,search_min,refit_s,warnings_search,warnings_refit,pipeline_mb,pipeline_sha256
+GNB,done,pc,dev_folds.csv,202944,16,1,0.3505,0.0042,0.15,0.1,0,0,0.0,70939cdb6e8259504f1991ec503aa1d6ba88be995f0574aa750cf3d81d1143e1
+DT,done,pc,dev_folds.csv,202944,3,1,0.4066,0.0081,0.37,0.8,0,0,0.1,3146bde7cdbf7ea2c4386a368c742b6d3eaf6633b7d417b8bcf9c2f4fe61eb72
+LR,done,pc,dev_folds.csv,202944,20,1,0.4058,0.0042,3.79,1.3,0,0,0.0,2deb4902b2c4030c3d9a5cfcdc8474d9a8754462fd6378e65cc6711ca1c90966
+SVC,done,pc,dev_folds.csv,202944,20,1,0.4055,0.0041,3.71,1.2,0,0,0.0,2f21d97962d0291f6f24ffeb0cbf511297b333f48b164d9a616a714a81b06336
+KNN,done,pc,dev_subsample_50k.csv (D14),50000,16,1,0.4215,0.0155,4.01,0.1,0,0,2.8,3587dadbec9d69a57a3617a1679da602eed01471a07dbc03655e8f847bcdada4
+XGB,done,pc,dev_folds.csv,202944,2,1,0.4363,0.0067,7.17,5.5,0,0,1.4,f397dc6db4095323b18c007b9cd8f22668c6b89c2bce53ae760a9460bdc7b062
+LGBM,done,pc,dev_folds.csv,202944,19,1,0.4363,0.0072,7.56,3.4,0,0,1.5,4b5d7646db5457245c4c8f8a7f6a360cfb2d8f8de50176e92aeffc18bf671997
+MLP,done,pc,dev_subsample_50k.csv (D14),50000,21,1,0.435,0.0168,7.55,14.7,0,0,0.1,e58354518e9b8b13042f9cdde8b8576019a1b7bf1c5fd247cf8a8d2cf58c744f
+CAT,done,pc,dev_folds.csv,202944,7,1,0.4374,0.0077,22.98,15.2,0,0,0.6,20a890f1b8fe43ffe200e0f75d35addd1c59d9c9add27c47e577667d89d92472
+RF,done,pc,dev_folds.csv,202944,6,1,0.4299,0.0071,17.72,8.4,0,0,34.7,3be59116e250dd553b631511bd8392087d8144997892f4569bdae68253f0ea99

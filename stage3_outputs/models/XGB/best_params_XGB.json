@@ -1,0 +1,41 @@
+{
+  "model": "XGB",
+  "model_name": "XGBoost",
+  "config_id": 2,
+  "n_rank1_ties": 1,
+  "params": {
+    "clf__colsample_bytree": 0.9014605340608103,
+    "clf__learning_rate": 0.014484855759887926,
+    "clf__max_depth": 7,
+    "clf__min_child_weight": 8.719328381638121,
+    "clf__n_estimators": 539,
+    "clf__reg_lambda": 0.45585140426292137,
+    "clf__scale_pos_weight": 2.0,
+    "clf__subsample": 0.9110125909544478
+  },
+  "params_repr": {
+    "clf__colsample_bytree": "0.9014605340608103",
+    "clf__learning_rate": "0.014484855759887926",
+    "clf__max_depth": "7",
+    "clf__min_child_weight": "8.719328381638121",
+    "clf__n_estimators": "539",
+    "clf__reg_lambda": "0.45585140426292137",
+    "clf__scale_pos_weight": "2.0",
+    "clf__subsample": "0.9110125909544478"
+  },
+  "mean_cv_ap": 0.43631189605131115,
+  "sd_cv_ap": 0.006666067971980095,
+  "fold_ap": [
+    0.42757583103107144,
+    0.4347763538405081,
+    0.44698793019669647,
+    0.4399467454994313,
+    0.4322726196888487
+  ],
+  "tuned_on": "dev_folds.csv",
+  "tuning_rows": 202944,
+  "n_configs": 30,
+  "n_folds": 5,
+  "scoring": "average_precision",
+  "note": "selection score only; reported performance comes from Stage 4 (D7)"
+}

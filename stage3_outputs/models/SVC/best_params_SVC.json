@@ -1,0 +1,31 @@
+{
+  "model": "SVC",
+  "model_name": "Linear SVC",
+  "config_id": 20,
+  "n_rank1_ties": 1,
+  "params": {
+    "clf__C": 5.222820981651938,
+    "clf__class_weight": null,
+    "clf__penalty": "l2"
+  },
+  "params_repr": {
+    "clf__C": "5.222820981651938",
+    "clf__class_weight": "None",
+    "clf__penalty": "'l2'"
+  },
+  "mean_cv_ap": 0.4054501197970718,
+  "sd_cv_ap": 0.004064237675095768,
+  "fold_ap": [
+    0.40234842283104927,
+    0.4038668285190841,
+    0.41213776833734383,
+    0.40789355647189407,
+    0.4010040228259875
+  ],
+  "tuned_on": "dev_folds.csv",
+  "tuning_rows": 202944,
+  "n_configs": 30,
+  "n_folds": 5,
+  "scoring": "average_precision",
+  "note": "selection score only; reported performance comes from Stage 4 (D7)"
+}

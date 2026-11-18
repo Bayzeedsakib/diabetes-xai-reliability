@@ -1,0 +1,32 @@
+{
+  "config_version": "v1.0",
+  "master_seed": 42,
+  "seeds": {
+    "partition": 3444837047,
+    "folds": 2669555309,
+    "subsample_50k": 2046530742,
+    "shap_background": 3581440988,
+    "shap_perm_background": 1691623607,
+    "global_sample": 2099784219,
+    "perm_core": 1184028159,
+    "stability_bootstrap": 862288241,
+    "search_sampling": 1333843299,
+    "estimator_init": 2170464109,
+    "eval_bootstrap": 2705014006,
+    "lime_case_selection": 2468990893,
+    "lime_perturbation": 3915829765
+  },
+  "test_size": 0.2,
+  "n_folds": 5,
+  "cv": "StratifiedKFold(shuffle=True)",
+  "subsample_n": 50000,
+  "subsample_strata": "target x fold",
+  "shap_background_n": 500,
+  "perm_background_n": 100,
+  "global_sample_n": 2000,
+  "perm_core_n": 500,
+  "n_stability_resamples": 5,
+  "sampling": "proportional stratification by target",
+  "repeated_profile_definition": "primary: identical values on all 21 predictors; secondary: identical on all 22 columns",
+  "row_id": "0-based data-row number in the raw CSV"
+}

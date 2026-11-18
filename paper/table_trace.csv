@@ -1,0 +1,115 @@
+registry_id,registry_column,checked_string,comment
+S1-001,value,253680,
+S1-002,value,21,
+S1-002,notes,"14 binary, 4 ordinal, 3 numerical",type split is in the notes column of S1-002 (value holds only 21); predictor lists by type: phase4_design.md section 9 item 10; recounted from the data file by check_predictor_types.py
+S1-004,value,35346,
+S1-005,value,13.93,
+P0-004,value,4631,
+S1-025,value,202944,
+S1-027,value,50736,
+P6-018,value,500 / 70 in each of splits 1-5,
+S1-008,value,24206,
+S1-009,value,9.54,
+P4-058,notes,"Holm across the 5 candidates (reported beside it, D37 amendment A2): 1 / 0.0716 / 0.000384",
+P4-057,notes,"Holm across the 5 candidates (reported beside it, D37 amendment A2): 0.911 / 0.00657 / 0.000124",
+P4-046,value,"LR -0.0317 [-0.0368, -0.0269] p 1.0000 N/N/N",equivalence flags counted
+P4-047,value,"LR -0.0285 [-0.0334, -0.0234] p 1.0000 N/N/N",equivalence flags counted
+P4-048,value,"LR -0.0327 [-0.0378, -0.0277] p 1.0000 N/N/N",equivalence flags counted
+P4-049,value,"LR -0.0340 [-0.0389, -0.0291] p 1.0000 N/N/N",equivalence flags counted
+P4-050,value,"LR -0.0332 [-0.0380, -0.0284] p 1.0000 N/N/N",equivalence flags counted
+P4-046,value,"RF -0.0042 [-0.0069, -0.0016] p 0.0025 N/Y/Y",equivalence flags counted
+P4-047,value,"RF -0.0074 [-0.0099, -0.0047] p 0.0940 N/N/Y",equivalence flags counted
+P4-048,value,"RF -0.0084 [-0.0111, -0.0058] p 0.3478 N/N/Y",equivalence flags counted
+P4-049,value,"RF -0.0083 [-0.0108, -0.0057] p 0.2759 N/N/Y",equivalence flags counted
+P4-050,value,"RF -0.0076 [-0.0101, -0.0050] p 0.1219 N/N/Y",equivalence flags counted
+P4-046,value,"XGB -0.0014 [-0.0030, +0.0001] p 0.0025 Y/Y/Y",equivalence flags counted
+P4-047,value,"XGB +0.0001 [-0.0014, +0.0015] p 0.0025 Y/Y/Y",equivalence flags counted
+P4-048,value,"XGB +0.0006 [-0.0009, +0.0022] p 0.0025 Y/Y/Y",equivalence flags counted
+P4-049,value,"XGB -0.0003 [-0.0018, +0.0012] p 0.0025 Y/Y/Y",equivalence flags counted
+P4-050,value,"XGB -0.0021 [-0.0038, -0.0006] p 0.0025 Y/Y/Y",equivalence flags counted
+P4-046,value,"LGBM +0.0000 [-0.0015, +0.0015] p 0.0025 Y/Y/Y",equivalence flags counted
+P4-047,value,"LGBM -0.0019 [-0.0034, -0.0003] p 0.0025 Y/Y/Y",equivalence flags counted
+P4-048,value,"LGBM -0.0010 [-0.0024, +0.0004] p 0.0025 Y/Y/Y",equivalence flags counted
+P4-049,value,"LGBM -0.0008 [-0.0023, +0.0007] p 0.0025 Y/Y/Y",equivalence flags counted
+P4-050,value,"LGBM -0.0017 [-0.0032, -0.0003] p 0.0025 Y/Y/Y",equivalence flags counted
+P4-046,value,"MLP -0.0057 [-0.0088, -0.0027] p 0.0250 N/Y/Y",equivalence flags counted
+P4-047,value,"MLP -0.0020 [-0.0046, +0.0006] p 0.0025 N/Y/Y",equivalence flags counted
+P4-048,value,"MLP -0.0047 [-0.0072, -0.0022] p 0.0025 N/Y/Y",equivalence flags counted
+P4-049,value,"MLP -0.0050 [-0.0075, -0.0025] p 0.0025 N/Y/Y",equivalence flags counted
+P4-050,value,"MLP -0.0048 [-0.0074, -0.0023] p 0.0025 N/Y/Y",equivalence flags counted
+P4-028,value,AP 0.4085 ± 0.0060,
+P4-028,value,ROC-AUC 0.8232 ± 0.0029,
+P4-054,value,-0.0320 (0.0022),
+P4-054,value,; 1 / 1 / 0.999,
+P4-032,value,AP 0.4333 ± 0.0055,
+P4-032,value,ROC-AUC 0.8282 ± 0.0027,
+P4-058,value,-0.0072 (0.0017),
+P4-058,value,0.932 / 0.0358 / 0.000192,
+P4-029,value,AP 0.4399 ± 0.0072,
+P4-029,value,ROC-AUC 0.8321 ± 0.0033,
+P4-055,value,-0.0006 (0.0011),
+P4-055,value,0.00204 / 0.000111 / 6.26e-06,
+P4-030,value,AP 0.4394 ± 0.0066,
+P4-030,value,ROC-AUC 0.8318 ± 0.0030,
+P4-056,value,-0.0011 (0.0008),
+P4-056,value,0.000803 / 3.26e-05 / 1.64e-06,
+P4-033,value,AP 0.4405 ± 0.0068,
+P4-033,value,ROC-AUC 0.8324 ± 0.0030,
+P4-031,value,AP 0.4360 ± 0.0068,
+P4-031,value,ROC-AUC 0.8307 ± 0.0030,
+P4-057,value,-0.0045 (0.0014),
+P4-057,value,0.304 / 0.00219 / 4.15e-05,
+P4-035,value,0.4069 ± 0.0062,
+P4-037,value,0.4070 ± 0.0060,
+P4-035,value,0.8238 ± 0.0030,
+P4-037,value,0.8181 ± 0.0034,
+P4-039,value,0.4332 ± 0.0056,
+P4-039,value,0.8280 ± 0.0026,
+P4-039,value,0.8665,
+P4-040,value,0.7184,
+P4-039,value,0.1810,
+P4-040,value,0.4398,
+P4-041,value,0.4397 ± 0.0068,
+P4-041,value,0.8320 ± 0.0029,
+P4-041,value,0.8679,
+P4-042,value,0.7193,
+P4-041,value,0.2547,
+P4-042,value,0.4436,
+P4-043,value,0.4085 ± 0.0060,
+P4-043,value,0.8232 ± 0.0029,
+P4-043,value,0.8641,
+P4-043,value,0.2396,
+P4-044,value,0.1393,
+P4-044,value,0.5000,
+P4-044,value,0.8607,
+P5-006,value,split 1 0.994 / 0.945,
+P5-006,value,split 2 0.964 / 0.948,
+P5-006,value,split 3 0.948 / 0.960,
+P5-006,value,split 4 0.996 / 0.972,
+P5-006,value,split 5 0.966 / 0.944,
+P6-004,value,split 1 0.987 / 0.911 / 0.955,
+P6-004,value,split 2 0.915 / 0.938 / 0.925,
+P6-004,value,split 3 0.984 / 0.767 / 0.885,
+P6-004,value,split 4 0.993 / 0.935 / 0.959,
+P6-004,value,split 5 0.994 / 0.938 / 0.923,
+P6-004,value,p 0.4542,
+P6-004,value,p 0.2381,
+P6-004,value,p 0.6587,
+P6-004,value,p 0.5635,
+P6-004,value,p 0.0079,
+P1-026,value,0.8296,
+P1-021,value,0.8205,
+P1-027,value,0.8264,
+P1-022,value,0.8188,
+P1-028,value,0.9701,
+P1-023,value,0.8304,
+P1-032,value,0.8268,
+P1-031,value,0.8183,
+P1-035,value,paired diff -0.0002 ± 0.0124,
+P1-034,value,paired diff +0.0000 ± 0.0093,
+P3-009,value,"0.747 [0.732, 0.761]",
+P3-001,value,"0.740 [0.726, 0.755]",
+P3-026,value,excess +0.0096,
+P3-018,value,excess +0.0086,
+P3-017,value,CAT -0.00007,
+P3-017,value,LR +0.00005,

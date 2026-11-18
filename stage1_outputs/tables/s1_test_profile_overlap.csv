@@ -1,0 +1,4 @@
+,n_test,feature_profile_in_dev,full_row_in_dev,novel_feature_profile,pct_feature_profile_in_dev,pct_full_row_in_dev
+all,50736,6919,6470,43817,13.637,12.752
+class0,43667,6594,6402,37073,15.101,14.661
+class1,7069,325,68,6744,4.598,0.962

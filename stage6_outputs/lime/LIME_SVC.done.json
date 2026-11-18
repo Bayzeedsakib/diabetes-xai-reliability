@@ -1,0 +1,10 @@
+{
+ "file": "lime\\LIME_SVC.csv",
+ "sha256": "b312e355dbc44583c632760a7d3046afdd9ccbbadc16cf4b240f807a4fa1db37",
+ "rows": 30,
+ "explanations": 90,
+ "wall_s": 4.202754599988111,
+ "workers": 1,
+ "machine": "pc",
+ "finished_utc": "2026-10-15T19:55:32+00:00"
+}

@@ -1,0 +1,14 @@
+{
+ "file": "shap\\SHAP_MLP.csv",
+ "sha256": "09bcb4937fe56437127cfce4db077f04f5fbe4290947636bec2f9cefa5b07ddb",
+ "rows": 530,
+ "chunks": 53,
+ "wall_s": 28.414323100048932,
+ "worker_cpu_s": 33.8125,
+ "workers": 1,
+ "explainer": "PermutationExplainer (100 bg, max_evals 250)",
+ "output_scale": "probability",
+ "max_additivity_error": 1.3322676295501878e-15,
+ "machine": "pc",
+ "finished_utc": "2026-10-15T19:29:32+00:00"
+}

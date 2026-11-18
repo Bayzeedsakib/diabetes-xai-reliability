@@ -1,0 +1,10 @@
+{
+ "file": "lime\\LIME_LGBM.csv",
+ "sha256": "c2cb3cebf1a5e8c46949dc35e9fd36e7d17f8704089a5611177c37b5734a4e60",
+ "rows": 30,
+ "explanations": 90,
+ "wall_s": 6.24016849999316,
+ "workers": 1,
+ "machine": "pc",
+ "finished_utc": "2026-10-15T19:55:41+00:00"
+}

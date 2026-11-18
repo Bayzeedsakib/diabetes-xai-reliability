@@ -1,0 +1,24 @@
+check,pass,detail
+Stage 4 freeze,True,
+split 1 frozen pipeline LR,True,
+split 1 frozen pipeline XGB,True,
+split 1 frozen pipeline LGBM,True,
+split 1 frozen pipeline MLP,True,
+split 1 frozen pipeline RF,True,
+split 1 frozen pipeline CAT,True,
+Stage 5 test_predictions.csv,True,
+Stage 1 dev_folds.csv,True,
+Stage 1 shap_background_500_dev.csv,True,
+Stage 1 shap_perm_background_100_dev.csv,True,
+Stage 1 shap_perm_core_500_test.csv,True,
+SHA256SUMS_r4.txt found and unchanged,True,C:\Users\USER\Downloads\thesis_xai\r4_upload\SHA256SUMS_r4.txt
+R4 files vs SHA256SUMS_r4.txt,True,165/165
+R4 zips still on the PC vs SHA256SUMS_r4.txt,True,6/6 present
+MANIFEST_splits2_3_4_5.csv,True,
+split 2-5 index files vs MANIFEST,True,24/24
+Stage 6 SHAP_LR.csv vs its .done.json,True,
+Stage 6 SHAP_XGB.csv vs its .done.json,True,
+Stage 6 SHAP_LGBM.csv vs its .done.json,True,
+Stage 6 SHAP_MLP.csv vs its .done.json,True,
+Stage 6 SHAP_RF.csv vs its .done.json,True,
+Stage 6 SHAP_CAT.csv vs its .done.json,True,

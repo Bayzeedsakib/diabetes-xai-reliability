@@ -1,0 +1,14 @@
+{
+ "file": "shap\\SHAP_KNN.csv",
+ "sha256": "652f8a64a3f12d7bd60147327c59a25af1aa207ec3039ad4ffa9c79a586527eb",
+ "rows": 530,
+ "chunks": 53,
+ "wall_s": 4667.596874799914,
+ "worker_cpu_s": 22438.09375,
+ "workers": 1,
+ "explainer": "PermutationExplainer (100 bg, max_evals 250)",
+ "output_scale": "probability",
+ "max_additivity_error": 1.3322676295501878e-15,
+ "machine": "pc",
+ "finished_utc": "2026-10-15T21:13:55+00:00"
+}

@@ -1,0 +1,36 @@
+check,expected,observed,result
+Rows,"253,680","253,680",PASS
+Columns (names and order),22 (target + 21 predictors),22,PASS
+Missing values,0,0,PASS
+Storage type,float64 for all columns,float64,PASS
+All values finite and integer-valued,True,True,PASS
+Target coding,"{0, 1}","{0, 1}",PASS
+HighBP values,"{0, 1}","{0, 1}",PASS
+HighChol values,"{0, 1}","{0, 1}",PASS
+CholCheck values,"{0, 1}","{0, 1}",PASS
+Smoker values,"{0, 1}","{0, 1}",PASS
+Stroke values,"{0, 1}","{0, 1}",PASS
+HeartDiseaseorAttack values,"{0, 1}","{0, 1}",PASS
+PhysActivity values,"{0, 1}","{0, 1}",PASS
+Fruits values,"{0, 1}","{0, 1}",PASS
+Veggies values,"{0, 1}","{0, 1}",PASS
+HvyAlcoholConsump values,"{0, 1}","{0, 1}",PASS
+AnyHealthcare values,"{0, 1}","{0, 1}",PASS
+NoDocbcCost values,"{0, 1}","{0, 1}",PASS
+DiffWalk values,"{0, 1}","{0, 1}",PASS
+Sex values,"{0, 1}","{0, 1}",PASS
+GenHlth range,1–5,1–5,PASS
+Age range,1–13,1–13,PASS
+Education range,1–6,1–6,PASS
+Income range,1–8,1–8,PASS
+BMI range,12–98,12–98,PASS
+MentHlth range,0–30,0–30,PASS
+PhysHlth range,0–30,0–30,PASS
+GenHlth levels present,all of 1–5,5 levels,PASS
+Age levels present,all of 1–13,13 levels,PASS
+Education levels present,all of 1–6,6 levels,PASS
+Income levels present,all of 1–8,8 levels,PASS
+Positive class (1),"35,346","35,346 (13.93%)",PASS
+Negative class (0),"218,334","218,334 (86.07%)",PASS
+"Exact repeated rows (all 22 columns, copies beyond the first)","24,206","24,206",PASS
+Predictor counts (binary / ordinal / numerical),14 / 4 / 3,14 / 4 / 3,PASS

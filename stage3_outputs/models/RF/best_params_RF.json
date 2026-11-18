@@ -1,0 +1,37 @@
+{
+  "model": "RF",
+  "model_name": "Random Forest",
+  "config_id": 6,
+  "n_rank1_ties": 1,
+  "params": {
+    "clf__n_estimators": 200,
+    "clf__min_samples_leaf": 5,
+    "clf__max_samples": 0.8,
+    "clf__max_features": "log2",
+    "clf__max_depth": 16,
+    "clf__class_weight": null
+  },
+  "params_repr": {
+    "clf__n_estimators": "200",
+    "clf__min_samples_leaf": "5",
+    "clf__max_samples": "0.8",
+    "clf__max_features": "'log2'",
+    "clf__max_depth": "16",
+    "clf__class_weight": "None"
+  },
+  "mean_cv_ap": 0.42985635090648655,
+  "sd_cv_ap": 0.007082880166478316,
+  "fold_ap": [
+    0.4195085113433967,
+    0.43066863048442444,
+    0.44076658356786924,
+    0.4325690392975745,
+    0.425768989839168
+  ],
+  "tuned_on": "dev_folds.csv",
+  "tuning_rows": 202944,
+  "n_configs": 30,
+  "n_folds": 5,
+  "scoring": "average_precision",
+  "note": "selection score only; reported performance comes from Stage 4 (D7)"
+}

@@ -1,0 +1,39 @@
+{
+  "machine": "pc",
+  "python": "3.13.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD",
+  "cpu_count": 12,
+  "packages": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "xgboost": "3.4.1",
+    "lightgbm": "4.6.0",
+    "catboost": "1.2.10",
+    "shap": "0.52.0",
+    "lime": "0.2.0.1"
+  },
+  "stage": "stage6_explanations.ipynb",
+  "written_utc": "2026-10-15T21:22:47+00:00",
+  "pins_differ": {},
+  "test_mode": false,
+  "freeze_sha256": "1dd5bf06708d148399675d9fc657857df1c86f015cbd83c24e79e8754b48c0d8",
+  "test_predictions_sha256": "b9813461cd03e4552b50c245c8750648d08b9c48c1960d249642982bc15114ed",
+  "tree_workers": 6,
+  "seeds": {
+    "shap_permutation": 3957024168,
+    "perm_seeds": [
+      2941821818,
+      2285058082
+    ],
+    "lime": [
+      2792219722,
+      1652670301,
+      1080463383
+    ],
+    "cases": 2468990893
+  },
+  "case_panel_sha256": "dd74d70a7cabc26b15471e28aed4518f3ebb436170ac2b49899072e50fa53b98"
+}

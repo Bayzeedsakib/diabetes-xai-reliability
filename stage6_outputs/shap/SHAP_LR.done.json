@@ -1,0 +1,14 @@
+{
+ "file": "shap\\SHAP_LR.csv",
+ "sha256": "345ee28e9c599722c779418ba426b0c6ab675b4232eeef8071eb2c3ccae2ca63",
+ "rows": 2029,
+ "chunks": 1,
+ "wall_s": 0.06118619999324437,
+ "worker_cpu_s": 0.06118619999324437,
+ "workers": 1,
+ "explainer": "LinearExplainer (500 bg)",
+ "output_scale": "log-odds",
+ "max_additivity_error": 2.220446049250313e-15,
+ "machine": "pc",
+ "finished_utc": "2026-10-15T19:27:58+00:00"
+}

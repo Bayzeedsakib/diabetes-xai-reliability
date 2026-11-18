@@ -1,0 +1,97 @@
+{
+ "models": [
+  {
+   "split": 5,
+   "model": "LR",
+   "source": "refit (config 16)",
+   "r4_pipeline_on_pc": "hash = summary.json",
+   "path": "paper_r5_outputs\\models\\split5_LR.joblib",
+   "model_sha256": "b79725206de41e864c76887fafe7306e0b5e2c1fae9c4966de5b3917bbf1f749",
+   "max_abs_diff": 0.0,
+   "rows_differing": 0,
+   "exact": true,
+   "pass": true,
+   "seconds": 11.0
+  },
+  {
+   "split": 5,
+   "model": "XGB",
+   "source": "refit (config 24)",
+   "r4_pipeline_on_pc": "hash = summary.json",
+   "path": "paper_r5_outputs\\models\\split5_XGB.joblib",
+   "model_sha256": "639844a9b3f080c9880743db28b9359214d617a7ba316c54e631b7ca306c3d0d",
+   "max_abs_diff": 0.0,
+   "rows_differing": 0,
+   "exact": true,
+   "pass": true,
+   "seconds": 3.3
+  },
+  {
+   "split": 5,
+   "model": "LGBM",
+   "source": "refit (config 7)",
+   "r4_pipeline_on_pc": "hash = summary.json",
+   "path": "paper_r5_outputs\\models\\split5_LGBM.joblib",
+   "model_sha256": "ed7a2a99244b666352b7472cbc84cd5e9a3ef47b29dbe8672285617b217ec5dd",
+   "max_abs_diff": 0.0,
+   "rows_differing": 0,
+   "exact": true,
+   "pass": true,
+   "seconds": 3.2
+  },
+  {
+   "split": 5,
+   "model": "MLP",
+   "source": "refit (config 29)",
+   "r4_pipeline_on_pc": "hash = summary.json",
+   "path": "paper_r5_outputs\\models\\split5_MLP.joblib",
+   "model_sha256": "021164100af5aad7d1ce54fa8012cda10fd795a17d4ba7e745913675fe986431",
+   "max_abs_diff": 0.0,
+   "rows_differing": 0,
+   "exact": true,
+   "pass": true,
+   "seconds": 15.8
+  },
+  {
+   "split": 5,
+   "model": "RF",
+   "source": "refit (config 9)",
+   "r4_pipeline_on_pc": "hash = summary.json",
+   "path": "paper_r5_outputs\\models\\split5_RF.joblib",
+   "model_sha256": "842d7c49decf9fd6937c2c20900b96be2b601226244cf4e82fab481f5f1a3e9b",
+   "max_abs_diff": 0.0,
+   "rows_differing": 0,
+   "exact": true,
+   "pass": true,
+   "seconds": 15.9
+  },
+  {
+   "split": 5,
+   "model": "CAT",
+   "source": "refit (config 7)",
+   "r4_pipeline_on_pc": "hash = summary.json",
+   "path": "paper_r5_outputs\\models\\split5_CAT.joblib",
+   "model_sha256": "c4da6b23550b97af4fd5adc697022acb6553419b045bb01b03553a564b9f2d99",
+   "max_abs_diff": 0.0,
+   "rows_differing": 0,
+   "exact": true,
+   "pass": true,
+   "seconds": 24.2
+  },
+  {
+   "split": 5,
+   "model": "ALT_XGB",
+   "source": "refit (Altamimi settings)",
+   "r4_pipeline_on_pc": "not saved by R4",
+   "path": "paper_r5_outputs\\models\\split5_ALT_XGB.joblib",
+   "model_sha256": "6f552a80b19c2684f73fe8bf63d0f79efe286614ddee5ef195aca49421fb5deb",
+   "max_abs_diff": 0.0,
+   "rows_differing": 0,
+   "exact": true,
+   "pass": true,
+   "seconds": 3.3
+  }
+ ],
+ "machine": "pc",
+ "finished_utc": "2026-11-13T14:28:20+00:00"
+}

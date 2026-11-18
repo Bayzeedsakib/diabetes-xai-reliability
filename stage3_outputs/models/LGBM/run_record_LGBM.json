@@ -1,0 +1,42 @@
+{
+  "model": "LGBM",
+  "stage": "stage3_tuning.ipynb",
+  "config_version": "v1.0",
+  "machine": "pc",
+  "search_time_reportable": true,
+  "started_utc": "2026-10-12T16:05:46+00:00",
+  "finished_utc": "2026-10-12T16:13:23+00:00",
+  "search_wall_s": 453.76,
+  "refit_wall_s": 3.42,
+  "fits": 150,
+  "search_n_jobs": 1,
+  "estimator_n_jobs": -1,
+  "refit_rows": 202944,
+  "best_config_id": 19,
+  "best_mean_cv_ap": 0.43626648608000995,
+  "best_sd_cv_ap": 0.007156926351492521,
+  "warnings_search_main_process": [],
+  "warnings_search_note": "captured",
+  "warnings_refit": [],
+  "pipeline_file": "pipeline_LGBM.joblib",
+  "pipeline_mb": 1.5,
+  "pipeline_sha256": "4b5d7646db5457245c4c8f8a7f6a360cfb2d8f8de50176e92aeffc18bf671997",
+  "environment": {
+    "machine": "pc",
+    "python": "3.13.0",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD",
+    "cpu_count": 12,
+    "packages": {
+      "numpy": "2.1.3",
+      "pandas": "2.2.3",
+      "scipy": "1.16.3",
+      "scikit-learn": "1.6.1",
+      "xgboost": "3.4.1",
+      "lightgbm": "4.6.0",
+      "catboost": "1.2.10",
+      "shap": "0.52.0",
+      "lime": "0.2.0.1"
+    }
+  }
+}

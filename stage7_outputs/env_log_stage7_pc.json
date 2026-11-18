@@ -1,0 +1,52 @@
+{
+  "machine": "pc",
+  "python": "3.13.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD",
+  "cpu_count": 12,
+  "packages": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "xgboost": "3.4.1",
+    "lightgbm": "4.6.0",
+    "catboost": "1.2.10",
+    "shap": "0.52.0",
+    "lime": "0.2.0.1"
+  },
+  "stage": "stage7_timing_benchmark.ipynb",
+  "written_utc": "2026-10-16T05:50:25+00:00",
+  "pins_differ": {},
+  "freeze_sha256": "1dd5bf06708d148399675d9fc657857df1c86f015cbd83c24e79e8754b48c0d8",
+  "test_predictions_sha256": "b9813461cd03e4552b50c245c8750648d08b9c48c1960d249642982bc15114ed",
+  "protocol": {
+    "train_repeats": 3,
+    "infer_repeats": {
+      "LR": 5,
+      "DT": 5,
+      "RF": 5,
+      "SVC": 5,
+      "KNN": 3,
+      "GNB": 5,
+      "XGB": 5,
+      "LGBM": 5,
+      "CAT": 5,
+      "MLP": 5
+    },
+    "shap_rows": {
+      "LR": 20,
+      "DT": 20,
+      "RF": 20,
+      "SVC": 20,
+      "KNN": 5,
+      "GNB": 20,
+      "XGB": 20,
+      "LGBM": 20,
+      "CAT": 20,
+      "MLP": 20
+    },
+    "lime_cases": 5,
+    "threading": "as frozen (RF, XGB, LGBM, CAT, KNN, MLP all cores)"
+  }
+}

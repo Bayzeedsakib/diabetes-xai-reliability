@@ -1,0 +1,14 @@
+model,seed,explainer,output_scale,n_rows,max_abs_additivity_error,mean_abs_additivity_error
+LR,1,LinearExplainer (500 bg),log-odds,2029,2.220446049e-15,2.244521857e-16
+DT,1,"TreeExplainer (interventional, 500 bg)",probability,2029,6.420158249e-08,1.146037735e-08
+RF,1,"TreeExplainer (interventional, 500 bg)",probability,2029,1.666713345e-08,3.397172449e-09
+SVC,1,"PermutationExplainer (100 bg, max_evals 250)",probability,530,1.776356839e-15,1.702614726e-16
+SVC,2,"PermutationExplainer (100 bg, max_evals 250)",probability,500,1.554312234e-15,1.58074942e-16
+KNN,1,"PermutationExplainer (100 bg, max_evals 250)",probability,530,1.33226763e-15,1.628087078e-16
+GNB,1,"PermutationExplainer (100 bg, max_evals 250)",probability,530,2.553512957e-15,2.701994599e-16
+GNB,2,"PermutationExplainer (100 bg, max_evals 250)",probability,500,2.220446049e-15,2.539541322e-16
+XGB,1,"TreeExplainer (interventional, 500 bg)",log-odds,2029,6.795540259e-06,8.519699906e-07
+LGBM,1,"TreeExplainer (interventional, 500 bg)",log-odds,2029,1.174311991e-07,4.509004421e-08
+CAT,1,"TreeExplainer (interventional, 500 bg)",log-odds,2029,1.014518194e-07,2.197475431e-08
+MLP,1,"PermutationExplainer (100 bg, max_evals 250)",probability,530,1.33226763e-15,1.745282173e-16
+MLP,2,"PermutationExplainer (100 bg, max_evals 250)",probability,500,1.221245327e-15,1.641606772e-16

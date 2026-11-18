@@ -1,0 +1,68 @@
+split,setting,model,explainer,output_scale,rows,max_abs_additivity_error,mean_abs_additivity_error
+1,native,ALT_XGB,"TreeExplainer (interventional, 500 bg)",log-odds,500,3.8997e-06,6.38474e-07
+1,native,CAT,Stage 6 (Stage 6),log-odds,500,9.15256e-08,2.15837e-08
+1,native,LGBM,Stage 6 (Stage 6),log-odds,500,1.17431e-07,4.32711e-08
+1,native,LR,Stage 6 (Stage 6),log-odds,500,2.22045e-15,2.30482e-16
+1,native,MLP,Stage 6 (Stage 6),probability,500,1.33227e-15,1.66013e-16
+1,native,RF,Stage 6 (Stage 6),probability,500,1.66671e-08,3.3299e-09
+1,native,XGB,Stage 6 (Stage 6),log-odds,500,5.53632e-06,8.39879e-07
+1,common,CAT,"PermutationExplainer (100 bg, max_evals 250)",probability,500,2.33147e-15,3.8767e-16
+1,common,LGBM,"PermutationExplainer (100 bg, max_evals 250)",probability,500,1.66533e-15,2.64093e-16
+1,common,LR,"PermutationExplainer (100 bg, max_evals 250)",probability,500,1.33227e-15,1.56929e-16
+1,common,MLP,"PermutationExplainer (100 bg, max_evals 250)",probability,500,1.33227e-15,1.63392e-16
+1,common,RF,"PermutationExplainer (100 bg, max_evals 250)",probability,500,1.22125e-15,1.65749e-16
+1,common,XGB,"PermutationExplainer (100 bg, max_evals 250)",probability,500,2.22045e-16,1.41831e-17
+1,xgbcheck,XGB_perm_logodds,"PermutationExplainer (100 bg, max_evals 250)",log-odds,500,8.88178e-16,8.74856e-17
+1,xgbcheck,XGB_tree100,"TreeExplainer (interventional, 100 bg)",log-odds,500,5.53785e-06,8.40109e-07
+2,native,ALT_XGB,"TreeExplainer (interventional, 500 bg)",log-odds,500,5.60798e-06,8.50773e-07
+2,native,CAT,"TreeExplainer (interventional, 500 bg)",log-odds,500,7.55322e-08,2.1329e-08
+2,native,LGBM,"TreeExplainer (interventional, 500 bg)",log-odds,500,1.22604e-07,4.51097e-08
+2,native,LR,"LinearExplainer (interventional, 500 bg, standardized inputs)",log-odds,500,1.77636e-15,2.62901e-16
+2,native,MLP,"PermutationExplainer (100 bg, max_evals 250)",probability,500,2.10942e-15,1.66769e-16
+2,native,RF,"TreeExplainer (interventional, 500 bg)",probability,500,1.7369e-08,3.31314e-09
+2,native,XGB,"TreeExplainer (interventional, 500 bg)",log-odds,500,4.33967e-06,9.24511e-07
+2,common,CAT,"PermutationExplainer (100 bg, max_evals 250)",probability,500,1.9984e-15,3.53828e-16
+2,common,LGBM,"PermutationExplainer (100 bg, max_evals 250)",probability,500,1.88738e-15,2.54899e-16
+2,common,LR,"PermutationExplainer (100 bg, max_evals 250)",probability,500,1.88738e-15,1.47761e-16
+2,common,MLP,"PermutationExplainer (100 bg, max_evals 250)",probability,500,2.10942e-15,1.66769e-16
+2,common,RF,"PermutationExplainer (100 bg, max_evals 250)",probability,500,1.05471e-15,1.40107e-16
+2,common,XGB,"PermutationExplainer (100 bg, max_evals 250)",probability,500,2.22045e-16,1.03806e-17
+3,native,ALT_XGB,"TreeExplainer (interventional, 500 bg)",log-odds,500,4.00301e-06,8.85947e-07
+3,native,CAT,"TreeExplainer (interventional, 500 bg)",log-odds,500,8.33068e-08,2.3402e-08
+3,native,LGBM,"TreeExplainer (interventional, 500 bg)",log-odds,500,1.75489e-07,4.05779e-08
+3,native,LR,"LinearExplainer (interventional, 500 bg, standardized inputs)",log-odds,500,1.33227e-15,2.06057e-16
+3,native,MLP,"PermutationExplainer (100 bg, max_evals 250)",probability,500,1.44329e-15,1.55516e-16
+3,native,RF,"TreeExplainer (interventional, 500 bg)",probability,500,1.39918e-08,3.34254e-09
+3,native,XGB,"TreeExplainer (interventional, 500 bg)",log-odds,500,5.49599e-06,9.7906e-07
+3,common,CAT,"PermutationExplainer (100 bg, max_evals 250)",probability,500,2.22045e-15,3.61711e-16
+3,common,LGBM,"PermutationExplainer (100 bg, max_evals 250)",probability,500,1.9984e-15,3.89117e-16
+3,common,LR,"PermutationExplainer (100 bg, max_evals 250)",probability,500,1.88738e-15,1.50878e-16
+3,common,MLP,"PermutationExplainer (100 bg, max_evals 250)",probability,500,1.44329e-15,1.55516e-16
+3,common,RF,"PermutationExplainer (100 bg, max_evals 250)",probability,500,1.11022e-15,1.52552e-16
+3,common,XGB,"PermutationExplainer (100 bg, max_evals 250)",probability,500,1.11022e-16,9.88098e-18
+4,native,ALT_XGB,"TreeExplainer (interventional, 500 bg)",log-odds,500,5.45375e-06,7.68395e-07
+4,native,CAT,"TreeExplainer (interventional, 500 bg)",log-odds,500,8.27525e-08,2.52103e-08
+4,native,LGBM,"TreeExplainer (interventional, 500 bg)",log-odds,500,1.58881e-07,4.19115e-08
+4,native,LR,"LinearExplainer (interventional, 500 bg, standardized inputs)",log-odds,500,2.22045e-15,3.52163e-16
+4,native,MLP,"PermutationExplainer (100 bg, max_evals 250)",probability,500,1.66533e-15,1.64678e-16
+4,native,RF,"TreeExplainer (interventional, 500 bg)",probability,500,1.64949e-08,3.35468e-09
+4,native,XGB,"TreeExplainer (interventional, 500 bg)",log-odds,500,6.31501e-06,8.286e-07
+4,common,CAT,"PermutationExplainer (100 bg, max_evals 250)",probability,500,1.9984e-15,3.89886e-16
+4,common,LGBM,"PermutationExplainer (100 bg, max_evals 250)",probability,500,1.77636e-15,2.51472e-16
+4,common,LR,"PermutationExplainer (100 bg, max_evals 250)",probability,500,1.77636e-15,1.72887e-16
+4,common,MLP,"PermutationExplainer (100 bg, max_evals 250)",probability,500,1.66533e-15,1.64678e-16
+4,common,RF,"PermutationExplainer (100 bg, max_evals 250)",probability,500,1.33227e-15,1.67642e-16
+4,common,XGB,"PermutationExplainer (100 bg, max_evals 250)",probability,500,1.11022e-16,1.4766e-17
+5,native,ALT_XGB,"TreeExplainer (interventional, 500 bg)",log-odds,500,4.55769e-06,7.65795e-07
+5,native,CAT,"TreeExplainer (interventional, 500 bg)",log-odds,500,8.53536e-08,2.43609e-08
+5,native,LGBM,"TreeExplainer (interventional, 500 bg)",log-odds,500,1.396e-07,3.98644e-08
+5,native,LR,"LinearExplainer (interventional, 500 bg, standardized inputs)",log-odds,500,8.88178e-16,2.28262e-16
+5,native,MLP,"PermutationExplainer (100 bg, max_evals 250)",probability,500,1.22125e-15,1.82044e-16
+5,native,RF,"TreeExplainer (interventional, 500 bg)",probability,500,1.70058e-08,3.68396e-09
+5,native,XGB,"TreeExplainer (interventional, 500 bg)",log-odds,500,6.75005e-06,9.78773e-07
+5,common,CAT,"PermutationExplainer (100 bg, max_evals 250)",probability,500,2.22045e-15,4.15526e-16
+5,common,LGBM,"PermutationExplainer (100 bg, max_evals 250)",probability,500,1.9984e-15,4.56192e-16
+5,common,LR,"PermutationExplainer (100 bg, max_evals 250)",probability,500,1.77636e-15,1.89513e-16
+5,common,MLP,"PermutationExplainer (100 bg, max_evals 250)",probability,500,1.22125e-15,1.82044e-16
+5,common,RF,"PermutationExplainer (100 bg, max_evals 250)",probability,500,1.44329e-15,1.84085e-16
+5,common,XGB,"PermutationExplainer (100 bg, max_evals 250)",probability,500,1.11022e-16,1.09357e-17

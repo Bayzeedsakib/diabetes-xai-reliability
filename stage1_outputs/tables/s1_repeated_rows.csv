@@ -1,0 +1,11 @@
+quantity,value
+full_repeated_rows,24206
+full_rows_in_repeated_groups,35575
+full_distinct_rows,229474
+full_repeated_groups,11369
+full_largest_group,59
+full_repeated_rows_positive,249
+feat_repeated_rows,25772
+feat_distinct_profiles,227908
+feat_conflicting_profiles,1566
+feat_rows_in_conflicting_profiles,5218
